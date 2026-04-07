@@ -125,5 +125,25 @@
     "carryover_from": null,
     "created_at": "2026-04-07T02:52:37.687763",
     "updated_at": "2026-04-07T02:53:00.319661"
+  },
+  {
+    "id": "081b21ed-9a8b-440b-bf3d-a64093a94838",
+    "title": "닌자크리스피 네쇼라 라이브 점검",
+    "assignees": [
+      "노은지",
+      "고해일",
+      "조세빈",
+      "하민수",
+      "유지민",
+      "고창웅"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-07",
+    "target_date": "2026-04-07",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-07T02:53:19.070610",
+    "updated_at": "2026-04-07T02:53:19.070618"
   }
 ]
