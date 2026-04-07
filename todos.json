@@ -1,5 +1,20 @@
 [
   {
+    "id": "fed24a58-a20c-45a4-a131-124615d1704d",
+    "title": "쇼핑검색최적화",
+    "assignees": [
+      "조세빈"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-07",
+    "target_date": "2026-04-07",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-07T02:50:49.267532",
+    "updated_at": "2026-04-07T02:50:49.267540"
+  },
+  {
     "id": "53e2d862-ce1d-4c8d-8727-f19088118e9f",
     "title": "네이버 개설 설명 및 셋팅 교육",
     "assignees": [
@@ -40,13 +55,13 @@
       "고해일"
     ],
     "details": "",
-    "status": "진행중",
+    "status": "대기중",
     "created_date": "2026-04-07",
     "target_date": "2026-04-07",
     "completed_date": null,
     "carryover_from": null,
     "created_at": "2026-04-07T02:51:44.120977",
-    "updated_at": "2026-04-07T09:32:36.374690"
+    "updated_at": "2026-04-07T02:51:44.120986"
   },
   {
     "id": "5d01c78d-b915-48be-8dfc-85f142c34b6a",
@@ -378,27 +393,12 @@
       "고해일"
     ],
     "details": "",
-    "status": "대기중",
-    "created_date": "2026-04-07",
-    "target_date": "2026-04-07",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-07T08:19:53.056407",
-    "updated_at": "2026-04-07T08:19:53.056420"
-  },
-  {
-    "id": "0f68b4aa-cc98-4585-98aa-556b168c0fe4",
-    "title": "히스토리 시트 양식 변경",
-    "assignees": [
-      "조세빈"
-    ],
-    "details": "",
     "status": "완료",
     "created_date": "2026-04-07",
     "target_date": "2026-04-07",
     "completed_date": "2026-04-07",
     "carryover_from": null,
-    "created_at": "2026-04-07T10:11:14.100215",
-    "updated_at": "2026-04-07T10:11:17.781769"
+    "created_at": "2026-04-07T08:19:53.056407",
+    "updated_at": "2026-04-07T10:55:51.677950"
   }
 ]
