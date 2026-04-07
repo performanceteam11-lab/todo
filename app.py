@@ -1,6 +1,8 @@
 import streamlit as st
 import json
 import os
+import base64
+import requests
 from datetime import datetime, date, timedelta
 import uuid
 
@@ -11,6 +13,10 @@ TEAM_MEMBERS = ["서다경", "노은지", "고해일", "조세빈", "하민수",
 TEAM_NAME = "마케팅10팀"
 DATA_FILE = os.path.join(os.path.dirname(__file__), "todos.json")
 MEMO_FILE = os.path.join(os.path.dirname(__file__), "memo.json")
+
+GITHUB_REPO = "performanceteam11-lab/todo"
+GITHUB_TODOS = "todos.json"
+GITHUB_MEMO  = "memo.json"
 
 STATUS_OPTIONS = ["대기중", "진행중", "완료"]
 STATUS_EMOJI = {"대기중": "⏳", "진행중": "🔄", "완료": "✅"}
@@ -30,9 +36,74 @@ def get_display_name(member: str) -> str:
 
 
 # ─────────────────────────────────────────────
-# 데이터 I/O
+# GitHub API 헬퍼 (클라우드 영구 저장)
+# ─────────────────────────────────────────────
+def _use_github() -> bool:
+    try:
+        return bool(st.secrets.get("GITHUB_TOKEN"))
+    except Exception:
+        return False
+
+
+def _gh_headers() -> dict:
+    try:
+        return {
+            "Authorization": f"token {st.secrets['GITHUB_TOKEN']}",
+            "Accept": "application/vnd.github.v3+json",
+        }
+    except Exception:
+        return {}
+
+
+def _gh_read(path: str):
+    """GitHub 저장소에서 JSON 파일 읽기. (data, sha) 반환"""
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
+    try:
+        r = requests.get(url, headers=_gh_headers(), timeout=10)
+        if r.status_code == 200:
+            blob = r.json()
+            content = base64.b64decode(blob["content"]).decode("utf-8")
+            return json.loads(content), blob["sha"]
+    except Exception:
+        pass
+    return [], None
+
+
+def _gh_write(path: str, data: list, sha) -> tuple:
+    """GitHub 저장소에 JSON 파일 쓰기. (성공여부, 새SHA) 반환"""
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{path}"
+    encoded = base64.b64encode(
+        json.dumps(data, ensure_ascii=False, indent=2, default=str).encode("utf-8")
+    ).decode("ascii")
+    payload = {"message": f"update {path}", "content": encoded}
+    if sha:
+        payload["sha"] = sha
+    try:
+        r = requests.put(url, headers=_gh_headers(), json=payload, timeout=10)
+        if r.status_code in (200, 201):
+            new_sha = r.json().get("content", {}).get("sha", sha)
+            return True, new_sha
+        # SHA 충돌 시 최신 SHA 다시 가져와서 재시도
+        if r.status_code == 409:
+            _, fresh_sha = _gh_read(path)
+            payload["sha"] = fresh_sha
+            r2 = requests.put(url, headers=_gh_headers(), json=payload, timeout=10)
+            if r2.status_code in (200, 201):
+                new_sha = r2.json().get("content", {}).get("sha", fresh_sha)
+                return True, new_sha
+    except Exception:
+        pass
+    return False, sha
+
+
+# ─────────────────────────────────────────────
+# 데이터 I/O (로컬 ↔ GitHub 자동 전환)
 # ─────────────────────────────────────────────
 def load_todos() -> list:
+    if _use_github():
+        data, sha = _gh_read(GITHUB_TODOS)
+        st.session_state["_todos_sha"] = sha
+        return data if isinstance(data, list) else []
     if os.path.exists(DATA_FILE):
         with open(DATA_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -40,6 +111,14 @@ def load_todos() -> list:
 
 
 def save_todos(todos: list) -> None:
+    if _use_github():
+        sha = st.session_state.get("_todos_sha")
+        if sha is None:
+            _, sha = _gh_read(GITHUB_TODOS)
+        ok, new_sha = _gh_write(GITHUB_TODOS, todos, sha)
+        if ok:
+            st.session_state["_todos_sha"] = new_sha
+        return
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(todos, f, ensure_ascii=False, indent=2, default=str)
 
@@ -105,9 +184,13 @@ def delete_todo(todo_id: str) -> None:
 
 
 # ─────────────────────────────────────────────
-# 메모 I/O
+# 메모 I/O (로컬 ↔ GitHub 자동 전환)
 # ─────────────────────────────────────────────
 def load_memo() -> list:
+    if _use_github():
+        data, sha = _gh_read(GITHUB_MEMO)
+        st.session_state["_memo_sha"] = sha
+        return data if isinstance(data, list) else []
     if os.path.exists(MEMO_FILE):
         with open(MEMO_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -115,6 +198,14 @@ def load_memo() -> list:
 
 
 def save_memo_data(memos: list) -> None:
+    if _use_github():
+        sha = st.session_state.get("_memo_sha")
+        if sha is None:
+            _, sha = _gh_read(GITHUB_MEMO)
+        ok, new_sha = _gh_write(GITHUB_MEMO, memos, sha)
+        if ok:
+            st.session_state["_memo_sha"] = new_sha
+        return
     with open(MEMO_FILE, "w", encoding="utf-8") as f:
         json.dump(memos, f, ensure_ascii=False, indent=2, default=str)
 

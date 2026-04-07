@@ -1,7 +1,3 @@
-# 데이터 파일 (로컬에서만 사용)
-todos.json
-memo.json
-
 # Python
 __pycache__/
 *.pyc
