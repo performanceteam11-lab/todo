@@ -250,5 +250,20 @@
     "carryover_from": null,
     "created_at": "2026-04-07T03:50:04.909732",
     "updated_at": "2026-04-07T03:50:04.909739"
+  },
+  {
+    "id": "9e715d38-f63b-4874-bf6c-15920e82cc8f",
+    "title": "샤크닌자 쿠팡관 CS팀 기획안 EOD 확인 필요",
+    "assignees": [
+      "유지민"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-07",
+    "target_date": "2026-04-07",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-07T03:50:40.291235",
+    "updated_at": "2026-04-07T03:50:40.291248"
   }
 ]
