@@ -1,20 +1,5 @@
 [
   {
-    "id": "fed24a58-a20c-45a4-a131-124615d1704d",
-    "title": "쇼핑검색최적화",
-    "assignees": [
-      "조세빈"
-    ],
-    "details": "",
-    "status": "대기중",
-    "created_date": "2026-04-07",
-    "target_date": "2026-04-07",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-07T02:50:49.267532",
-    "updated_at": "2026-04-07T02:50:49.267540"
-  },
-  {
     "id": "53e2d862-ce1d-4c8d-8727-f19088118e9f",
     "title": "네이버 개설 설명 및 셋팅 교육",
     "assignees": [
@@ -55,13 +40,13 @@
       "고해일"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "진행중",
     "created_date": "2026-04-07",
     "target_date": "2026-04-07",
     "completed_date": null,
     "carryover_from": null,
     "created_at": "2026-04-07T02:51:44.120977",
-    "updated_at": "2026-04-07T02:51:44.120986"
+    "updated_at": "2026-04-07T09:32:36.374690"
   },
   {
     "id": "5d01c78d-b915-48be-8dfc-85f142c34b6a",
@@ -258,13 +243,13 @@
       "유지민"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "진행중",
     "created_date": "2026-04-07",
     "target_date": "2026-04-07",
     "completed_date": null,
     "carryover_from": null,
     "created_at": "2026-04-07T03:50:40.291235",
-    "updated_at": "2026-04-07T03:50:40.291248"
+    "updated_at": "2026-04-07T11:45:43.103936"
   },
   {
     "id": "b1085994-999e-4036-9f76-1e6d730b88b4",
@@ -318,13 +303,28 @@
       "하민수"
     ],
     "details": "",
-    "status": "완료",
+    "status": "진행중",
     "created_date": "2026-04-07",
     "target_date": "2026-04-07",
-    "completed_date": "2026-04-07",
+    "completed_date": null,
     "carryover_from": null,
     "created_at": "2026-04-07T07:45:36.704373",
-    "updated_at": "2026-04-07T11:34:51.934509"
+    "updated_at": "2026-04-07T07:46:01.616689"
+  },
+  {
+    "id": "3b7a2ce1-d338-49b4-858e-492402441e93",
+    "title": "샤크데이 네쇼라 소재 기획",
+    "assignees": [
+      "하민수"
+    ],
+    "details": "",
+    "status": "진행중",
+    "created_date": "2026-04-07",
+    "target_date": "2026-04-07",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-07T07:45:47.601918",
+    "updated_at": "2026-04-07T07:46:06.080766"
   },
   {
     "id": "8a4ede1a-fb2c-42e3-ac2f-ddd818dcecf3",
@@ -378,27 +378,12 @@
       "고해일"
     ],
     "details": "",
-    "status": "완료",
-    "created_date": "2026-04-07",
-    "target_date": "2026-04-07",
-    "completed_date": "2026-04-07",
-    "carryover_from": null,
-    "created_at": "2026-04-07T08:19:53.056407",
-    "updated_at": "2026-04-07T10:55:51.677950"
-  },
-  {
-    "id": "59a639b9-0ff8-4c78-9417-ffa65193ca9d",
-    "title": "샤크데이 네쇼라 기획안 컨펌",
-    "assignees": [
-      "하민수"
-    ],
-    "details": "",
     "status": "대기중",
     "created_date": "2026-04-07",
     "target_date": "2026-04-07",
     "completed_date": null,
     "carryover_from": null,
-    "created_at": "2026-04-07T11:35:34.718045",
-    "updated_at": "2026-04-07T11:35:34.718054"
+    "created_at": "2026-04-07T08:19:53.056407",
+    "updated_at": "2026-04-07T08:19:53.056420"
   }
 ]
