@@ -235,5 +235,20 @@
     "carryover_from": null,
     "created_at": "2026-04-07T03:49:49.038484",
     "updated_at": "2026-04-07T03:49:52.494621"
+  },
+  {
+    "id": "9a94f5e0-de86-4dbd-a5e3-379297af9455",
+    "title": "샤크데이 네쇼라 소재 수정",
+    "assignees": [
+      "유지민"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-07",
+    "target_date": "2026-04-07",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-07T03:50:04.909732",
+    "updated_at": "2026-04-07T03:50:04.909739"
   }
 ]
