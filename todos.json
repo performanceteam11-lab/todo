@@ -145,5 +145,20 @@
     "carryover_from": null,
     "created_at": "2026-04-07T02:53:19.070610",
     "updated_at": "2026-04-07T02:53:24.363841"
+  },
+  {
+    "id": "0101be59-9503-41f1-bfb3-13c4d08d7fcd",
+    "title": "쇼핑검색 확장소재 점검",
+    "assignees": [
+      "조세빈"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-07",
+    "target_date": "2026-04-07",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-07T02:53:34.000531",
+    "updated_at": "2026-04-07T02:53:34.000537"
   }
 ]
