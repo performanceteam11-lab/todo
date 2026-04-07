@@ -190,20 +190,5 @@
     "carryover_from": null,
     "created_at": "2026-04-07T02:53:58.477501",
     "updated_at": "2026-04-07T02:54:02.629619"
-  },
-  {
-    "id": "d9ef7e2b-dcdb-400c-9e66-bfea8cc96e4c",
-    "title": "브검 라이브 전후 랜딩 수정",
-    "assignees": [
-      "하민수"
-    ],
-    "details": "",
-    "status": "대기중",
-    "created_date": "2026-04-07",
-    "target_date": "2026-04-07",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-07T02:59:21.387067",
-    "updated_at": "2026-04-07T02:59:21.387078"
   }
 ]
