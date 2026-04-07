@@ -348,12 +348,12 @@
       "하민수"
     ],
     "details": "",
-    "status": "진행중",
+    "status": "완료",
     "created_date": "2026-04-07",
     "target_date": "2026-04-07",
-    "completed_date": null,
+    "completed_date": "2026-04-07",
     "carryover_from": null,
     "created_at": "2026-04-07T07:45:58.847878",
-    "updated_at": "2026-04-07T07:46:04.641621"
+    "updated_at": "2026-04-07T08:00:04.987727"
   }
 ]
