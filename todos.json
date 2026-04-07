@@ -385,5 +385,20 @@
     "carryover_from": null,
     "created_at": "2026-04-07T08:19:53.056407",
     "updated_at": "2026-04-07T08:19:53.056420"
+  },
+  {
+    "id": "0f68b4aa-cc98-4585-98aa-556b168c0fe4",
+    "title": "히스토리 시트 양식 변경",
+    "assignees": [
+      "조세빈"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-07",
+    "target_date": "2026-04-07",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-07T10:11:14.100215",
+    "updated_at": "2026-04-07T10:11:14.100227"
   }
 ]
