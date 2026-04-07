@@ -108,5 +108,22 @@
     "carryover_from": null,
     "created_at": "2026-04-07T02:52:18.303605",
     "updated_at": "2026-04-07T02:52:18.303612"
+  },
+  {
+    "id": "d14ff79a-5156-40c1-a74b-0d3b3ce8817a",
+    "title": "쇼핑검색 기준점",
+    "assignees": [
+      "노은지",
+      "고해일",
+      "조세빈"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-07",
+    "target_date": "2026-04-07",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-07T02:52:37.687763",
+    "updated_at": "2026-04-07T02:52:37.687769"
   }
 ]
