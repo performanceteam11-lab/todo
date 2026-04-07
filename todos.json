@@ -45,5 +45,22 @@
     "carryover_from": null,
     "created_at": "2026-04-07T02:51:29.910647",
     "updated_at": "2026-04-07T02:51:29.910656"
+  },
+  {
+    "id": "f3155aed-e3df-4af7-9132-e42bd61d3bed",
+    "title": "프로모션 준비 프로세스화",
+    "assignees": [
+      "조세빈",
+      "노은지",
+      "고해일"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-07",
+    "target_date": "2026-04-07",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-07T02:51:44.120977",
+    "updated_at": "2026-04-07T02:51:44.120986"
   }
 ]
