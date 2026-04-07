@@ -250,5 +250,20 @@
     "carryover_from": null,
     "created_at": "2026-04-07T03:00:37.146382",
     "updated_at": "2026-04-07T03:00:41.528828"
+  },
+  {
+    "id": "5d5615ae-3513-4eb7-987c-1ca14d3cb6ff",
+    "title": "인플루언서 리스트업 및 컨택 (금일 내 1차안 전달)",
+    "assignees": [
+      "유지민"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-07",
+    "target_date": "2026-04-07",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-07T03:02:31.824466",
+    "updated_at": "2026-04-07T03:02:31.824475"
   }
 ]
