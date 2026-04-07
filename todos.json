@@ -280,5 +280,20 @@
     "carryover_from": null,
     "created_at": "2026-04-07T06:50:20.027003",
     "updated_at": "2026-04-07T06:50:28.494479"
+  },
+  {
+    "id": "870e9b9c-8905-40c3-bdba-98d81dcb5381",
+    "title": "에어그릴&아이스크림 BSA 키워드 컨펌 요청",
+    "assignees": [
+      "고해일"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-07",
+    "target_date": "2026-04-07",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-07T06:50:43.791166",
+    "updated_at": "2026-04-07T06:50:43.791179"
   }
 ]
