@@ -192,85 +192,10 @@
     "updated_at": "2026-04-07T02:54:02.629619"
   },
   {
-    "id": "444f7642-1726-407c-b89b-385778ae9895",
-    "title": "브검 라이브 전후 이벤트 및 서브링크 수정",
+    "id": "2679cc44-be45-4944-8839-12ffbda33c4d",
+    "title": "메타 알림광고, 협력광고 셋팅 관련 서치",
     "assignees": [
-      "하민수"
-    ],
-    "details": "",
-    "status": "진행중",
-    "created_date": "2026-04-07",
-    "target_date": "2026-04-07",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-07T03:00:09.523500",
-    "updated_at": "2026-04-07T03:00:44.526164"
-  },
-  {
-    "id": "1c5264f9-09b4-4c14-98aa-6a5e109573b2",
-    "title": "브검 신규 그룹 계약",
-    "assignees": [
-      "하민수"
-    ],
-    "details": "",
-    "status": "진행중",
-    "created_date": "2026-04-07",
-    "target_date": "2026-04-07",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-07T03:00:20.304667",
-    "updated_at": "2026-04-07T03:00:43.625780"
-  },
-  {
-    "id": "87542c10-955f-4da2-8272-206205c57244",
-    "title": "샤크데이 네쇼라 소재 기획",
-    "assignees": [
-      "하민수"
-    ],
-    "details": "",
-    "status": "진행중",
-    "created_date": "2026-04-07",
-    "target_date": "2026-04-07",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-07T03:00:29.093881",
-    "updated_at": "2026-04-07T03:00:42.568694"
-  },
-  {
-    "id": "768fcf1f-6ba8-4951-baf8-bae693c87ae7",
-    "title": "애드부스트 캠페인 개선안 작성",
-    "assignees": [
-      "하민수"
-    ],
-    "details": "",
-    "status": "진행중",
-    "created_date": "2026-04-07",
-    "target_date": "2026-04-07",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-07T03:00:37.146382",
-    "updated_at": "2026-04-07T03:00:41.528828"
-  },
-  {
-    "id": "5d5615ae-3513-4eb7-987c-1ca14d3cb6ff",
-    "title": "인플루언서 리스트업 및 컨택 (금일 내 1차안 전달)",
-    "assignees": [
-      "유지민"
-    ],
-    "details": "",
-    "status": "진행중",
-    "created_date": "2026-04-07",
-    "target_date": "2026-04-07",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-07T03:02:31.824466",
-    "updated_at": "2026-04-07T03:03:21.674443"
-  },
-  {
-    "id": "21af83be-f0af-447f-bf98-7f30c5547a92",
-    "title": "샤크데이 메인배너 소재 수정",
-    "assignees": [
-      "유지민"
+      "조세빈"
     ],
     "details": "",
     "status": "대기중",
@@ -278,22 +203,7 @@
     "target_date": "2026-04-07",
     "completed_date": null,
     "carryover_from": null,
-    "created_at": "2026-04-07T03:02:52.201660",
-    "updated_at": "2026-04-07T03:02:52.201667"
-  },
-  {
-    "id": "23e38ce8-3193-4ad3-bb1e-7b0f000d9bc7",
-    "title": "브랜드 에셋 드롭박스 작업",
-    "assignees": [
-      "유지민"
-    ],
-    "details": "",
-    "status": "진행중",
-    "created_date": "2026-04-07",
-    "target_date": "2026-04-07",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-07T03:03:13.221037",
-    "updated_at": "2026-04-07T03:03:18.555211"
+    "created_at": "2026-04-07T03:11:00.412624",
+    "updated_at": "2026-04-07T03:11:00.412630"
   }
 ]
