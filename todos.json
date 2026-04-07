@@ -160,5 +160,20 @@
     "carryover_from": null,
     "created_at": "2026-04-07T02:53:34.000531",
     "updated_at": "2026-04-07T02:53:38.524685"
+  },
+  {
+    "id": "529da9f5-5e24-48ce-b0e7-324bce79dcca",
+    "title": "토스 게재지면 보고",
+    "assignees": [
+      "조세빈"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-07",
+    "target_date": "2026-04-07",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-07T02:53:47.256985",
+    "updated_at": "2026-04-07T02:53:47.256994"
   }
 ]
