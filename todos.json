@@ -205,5 +205,20 @@
     "carryover_from": null,
     "created_at": "2026-04-07T03:00:09.523500",
     "updated_at": "2026-04-07T03:00:09.523508"
+  },
+  {
+    "id": "1c5264f9-09b4-4c14-98aa-6a5e109573b2",
+    "title": "브검 신규 그룹 계약",
+    "assignees": [
+      "하민수"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-07",
+    "target_date": "2026-04-07",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-07T03:00:20.304667",
+    "updated_at": "2026-04-07T03:00:20.304673"
   }
 ]
