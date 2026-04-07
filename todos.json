@@ -1,20 +1,5 @@
 [
   {
-    "id": "fed24a58-a20c-45a4-a131-124615d1704d",
-    "title": "쇼핑검색최적화",
-    "assignees": [
-      "조세빈"
-    ],
-    "details": "",
-    "status": "대기중",
-    "created_date": "2026-04-07",
-    "target_date": "2026-04-07",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-07T02:50:49.267532",
-    "updated_at": "2026-04-07T02:50:49.267540"
-  },
-  {
     "id": "53e2d862-ce1d-4c8d-8727-f19088118e9f",
     "title": "네이버 개설 설명 및 셋팅 교육",
     "assignees": [
@@ -273,13 +258,13 @@
       "고해일"
     ],
     "details": "",
-    "status": "완료",
+    "status": "진행중",
     "created_date": "2026-04-07",
     "target_date": "2026-04-07",
-    "completed_date": "2026-04-07",
+    "completed_date": null,
     "carryover_from": null,
     "created_at": "2026-04-07T06:50:20.027003",
-    "updated_at": "2026-04-07T08:18:36.222024"
+    "updated_at": "2026-04-07T06:50:28.494479"
   },
   {
     "id": "870e9b9c-8905-40c3-bdba-98d81dcb5381",
@@ -355,5 +340,20 @@
     "carryover_from": null,
     "created_at": "2026-04-07T07:45:58.847878",
     "updated_at": "2026-04-07T08:00:04.987727"
+  },
+  {
+    "id": "a14c0fde-254a-41f1-8b76-8c1dc2d7dfc9",
+    "title": "닌자 크리스피 메인배너/홈피드 재셋팅",
+    "assignees": [
+      "조세빈"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-07",
+    "target_date": "2026-04-07",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-07T08:18:47.845377",
+    "updated_at": "2026-04-07T08:18:47.845384"
   }
 ]
