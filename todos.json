@@ -175,5 +175,20 @@
     "carryover_from": null,
     "created_at": "2026-04-07T02:53:47.256985",
     "updated_at": "2026-04-07T02:53:50.275925"
+  },
+  {
+    "id": "d8a8c945-8f9b-4d2d-a060-cf7208c6113a",
+    "title": "데일리리포트",
+    "assignees": [
+      "노은지"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-07",
+    "target_date": "2026-04-07",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-07T02:53:58.477501",
+    "updated_at": "2026-04-07T02:53:58.477510"
   }
 ]
