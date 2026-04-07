@@ -13,5 +13,20 @@
     "carryover_from": null,
     "created_at": "2026-04-07T02:50:49.267532",
     "updated_at": "2026-04-07T02:50:49.267540"
+  },
+  {
+    "id": "53e2d862-ce1d-4c8d-8727-f19088118e9f",
+    "title": "네이버 개설 설명 및 셋팅 교육",
+    "assignees": [
+      "조세빈"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-07",
+    "target_date": "2026-04-07",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-07T02:51:13.659391",
+    "updated_at": "2026-04-07T02:51:13.659404"
   }
 ]
