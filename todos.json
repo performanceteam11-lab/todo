@@ -340,5 +340,20 @@
     "carryover_from": null,
     "created_at": "2026-04-07T07:45:47.601918",
     "updated_at": "2026-04-07T07:45:47.601925"
+  },
+  {
+    "id": "8a4ede1a-fb2c-42e3-ac2f-ddd818dcecf3",
+    "title": "브검 그룹 분리 후 재계약",
+    "assignees": [
+      "하민수"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-07",
+    "target_date": "2026-04-07",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-07T07:45:58.847878",
+    "updated_at": "2026-04-07T07:45:58.847890"
   }
 ]
