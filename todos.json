@@ -288,12 +288,12 @@
       "유지민"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "진행중",
     "created_date": "2026-04-07",
     "target_date": "2026-04-07",
     "completed_date": null,
     "carryover_from": null,
     "created_at": "2026-04-07T03:03:13.221037",
-    "updated_at": "2026-04-07T03:03:13.221045"
+    "updated_at": "2026-04-07T03:03:18.555211"
   }
 ]
