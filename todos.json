@@ -385,5 +385,20 @@
     "carryover_from": null,
     "created_at": "2026-04-07T08:19:53.056407",
     "updated_at": "2026-04-07T10:55:51.677950"
+  },
+  {
+    "id": "59a639b9-0ff8-4c78-9417-ffa65193ca9d",
+    "title": "샤크데이 네쇼라 기획안 컨펌",
+    "assignees": [
+      "하민수"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-07",
+    "target_date": "2026-04-07",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-07T11:35:34.718045",
+    "updated_at": "2026-04-07T11:35:34.718054"
   }
 ]
