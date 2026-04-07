@@ -220,5 +220,20 @@
     "carryover_from": null,
     "created_at": "2026-04-07T03:49:33.056657",
     "updated_at": "2026-04-07T03:49:36.044071"
+  },
+  {
+    "id": "3ac4920c-4134-44c0-9ccd-1f9b55886e76",
+    "title": "브랜드에셋 드롭박스 폴더링",
+    "assignees": [
+      "유지민"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-07",
+    "target_date": "2026-04-07",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-07T03:49:49.038484",
+    "updated_at": "2026-04-07T03:49:49.038495"
   }
 ]
