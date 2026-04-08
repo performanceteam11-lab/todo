@@ -561,13 +561,13 @@
       "하민수"
     ],
     "details": "",
-    "status": "진행중",
+    "status": "완료",
     "created_date": "2026-04-08",
     "target_date": "2026-04-08",
-    "completed_date": null,
+    "completed_date": "2026-04-08",
     "carryover_from": null,
     "created_at": "2026-04-08T04:46:16.431419",
-    "updated_at": "2026-04-08T04:46:19.549867"
+    "updated_at": "2026-04-08T08:37:58.912579"
   },
   {
     "id": "f942b6cc-51d8-401c-9469-ea33727a7884",
