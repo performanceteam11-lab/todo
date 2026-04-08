@@ -23,13 +23,13 @@
       "고해일"
     ],
     "details": "",
-    "status": "완료",
+    "status": "대기중",
     "created_date": "2026-04-07",
     "target_date": "2026-04-08",
-    "completed_date": "2026-04-08",
+    "completed_date": null,
     "carryover_from": "2026-04-07",
     "created_at": "2026-04-07T02:51:29.910647",
-    "updated_at": "2026-04-08T08:13:46.740895"
+    "updated_at": "2026-04-07T02:51:29.910656"
   },
   {
     "id": "f3155aed-e3df-4af7-9132-e42bd61d3bed",
@@ -103,13 +103,13 @@
       "조세빈"
     ],
     "details": "",
-    "status": "완료",
+    "status": "진행중",
     "created_date": "2026-04-07",
     "target_date": "2026-04-08",
-    "completed_date": "2026-04-08",
+    "completed_date": null,
     "carryover_from": "2026-04-07",
     "created_at": "2026-04-07T02:52:37.687763",
-    "updated_at": "2026-04-08T08:13:56.406478"
+    "updated_at": "2026-04-07T02:53:00.319661"
   },
   {
     "id": "081b21ed-9a8b-440b-bf3d-a64093a94838",
@@ -363,13 +363,13 @@
       "고해일"
     ],
     "details": "",
-    "status": "완료",
+    "status": "대기중",
     "created_date": "2026-04-07",
     "target_date": "2026-04-08",
-    "completed_date": "2026-04-08",
+    "completed_date": null,
     "carryover_from": "2026-04-07",
     "created_at": "2026-04-07T08:19:13.594510",
-    "updated_at": "2026-04-08T08:14:09.924954"
+    "updated_at": "2026-04-07T08:19:13.594519"
   },
   {
     "id": "a56069fb-341f-477d-aad6-b0cd724f3e9a",
@@ -378,13 +378,13 @@
       "고해일"
     ],
     "details": "",
-    "status": "완료",
+    "status": "대기중",
     "created_date": "2026-04-07",
     "target_date": "2026-04-08",
-    "completed_date": "2026-04-08",
+    "completed_date": null,
     "carryover_from": "2026-04-07",
     "created_at": "2026-04-07T08:19:53.056407",
-    "updated_at": "2026-04-08T08:14:13.454694"
+    "updated_at": "2026-04-07T08:19:53.056420"
   },
   {
     "id": "aadf95c2-0d3e-44ea-9eaf-30c06af09e42",
@@ -498,13 +498,13 @@
       "조세빈"
     ],
     "details": "",
-    "status": "완료",
+    "status": "대기중",
     "created_date": "2026-04-08",
     "target_date": "2026-04-08",
-    "completed_date": "2026-04-08",
+    "completed_date": null,
     "carryover_from": null,
     "created_at": "2026-04-08T00:47:12.008452",
-    "updated_at": "2026-04-08T07:17:42.928386"
+    "updated_at": "2026-04-08T00:47:12.008460"
   },
   {
     "id": "a736183a-80ba-4e1b-9a47-d753e9bc7e94",
@@ -513,13 +513,13 @@
       "조세빈"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "진행중",
     "created_date": "2026-04-08",
     "target_date": "2026-04-08",
     "completed_date": null,
     "carryover_from": null,
     "created_at": "2026-04-08T00:48:03.929093",
-    "updated_at": "2026-04-08T06:49:47.929708"
+    "updated_at": "2026-04-08T02:24:05.521238"
   },
   {
     "id": "94115af1-719b-489a-bb55-40065b59c4f1",
@@ -546,13 +546,13 @@
       "조세빈"
     ],
     "details": "",
-    "status": "완료",
+    "status": "대기중",
     "created_date": "2026-04-08",
     "target_date": "2026-04-08",
-    "completed_date": "2026-04-08",
+    "completed_date": null,
     "carryover_from": null,
     "created_at": "2026-04-08T03:38:02.215710",
-    "updated_at": "2026-04-08T07:47:58.155779"
+    "updated_at": "2026-04-08T03:38:02.215721"
   },
   {
     "id": "7549d8de-195a-41cb-9002-ee5614fb9602",
@@ -576,57 +576,12 @@
       "하민수"
     ],
     "details": "",
-    "status": "대기중",
-    "created_date": "2026-04-08",
-    "target_date": "2026-04-08",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-08T04:46:34.166233",
-    "updated_at": "2026-04-08T04:46:34.166243"
-  },
-  {
-    "id": "2f7f3f01-38f2-4b2d-802f-7f9630b12b48",
-    "title": "토스 라이브마켓 성과 분석",
-    "assignees": [
-      "조세빈"
-    ],
-    "details": "",
-    "status": "대기중",
-    "created_date": "2026-04-08",
-    "target_date": "2026-04-08",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-08T06:50:12.057519",
-    "updated_at": "2026-04-08T06:50:12.057526"
-  },
-  {
-    "id": "c992ac90-2a41-47ff-8aea-17cb9bee0a90",
-    "title": "쇼핑검색 자동입찰 솔루션 요청",
-    "assignees": [
-      "조세빈"
-    ],
-    "details": "",
     "status": "진행중",
     "created_date": "2026-04-08",
     "target_date": "2026-04-08",
     "completed_date": null,
     "carryover_from": null,
-    "created_at": "2026-04-08T07:48:18.478038",
-    "updated_at": "2026-04-08T07:48:21.174926"
-  },
-  {
-    "id": "6a0efa68-c89f-4b88-917d-524168d6ec13",
-    "title": "파워링크 품절 소재 키워드 OFF",
-    "assignees": [
-      "조세빈"
-    ],
-    "details": "",
-    "status": "완료",
-    "created_date": "2026-04-08",
-    "target_date": "2026-04-08",
-    "completed_date": "2026-04-08",
-    "carryover_from": null,
-    "created_at": "2026-04-08T08:09:25.492948",
-    "updated_at": "2026-04-08T08:09:29.580586"
+    "created_at": "2026-04-08T04:46:34.166233",
+    "updated_at": "2026-04-08T08:37:49.944339"
   }
 ]
