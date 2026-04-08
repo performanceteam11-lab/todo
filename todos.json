@@ -513,13 +513,13 @@
       "조세빈"
     ],
     "details": "",
-    "status": "진행중",
+    "status": "대기중",
     "created_date": "2026-04-08",
     "target_date": "2026-04-08",
     "completed_date": null,
     "carryover_from": null,
     "created_at": "2026-04-08T00:48:03.929093",
-    "updated_at": "2026-04-08T02:24:05.521238"
+    "updated_at": "2026-04-08T06:49:47.929708"
   },
   {
     "id": "94115af1-719b-489a-bb55-40065b59c4f1",
