@@ -400,5 +400,20 @@
     "carryover_from": null,
     "created_at": "2026-04-08T00:31:23.031163",
     "updated_at": "2026-04-08T00:31:23.031176"
+  },
+  {
+    "id": "35609a3a-4e4d-4e84-be42-56f3f619d218",
+    "title": "샤크닌자 파워링크 키워드 스크럽",
+    "assignees": [
+      "유지민"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-08",
+    "target_date": "2026-04-08",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-08T00:38:56.058740",
+    "updated_at": "2026-04-08T00:38:56.058747"
   }
 ]
