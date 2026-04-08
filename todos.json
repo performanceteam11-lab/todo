@@ -103,13 +103,13 @@
       "조세빈"
     ],
     "details": "",
-    "status": "진행중",
+    "status": "완료",
     "created_date": "2026-04-07",
     "target_date": "2026-04-08",
-    "completed_date": null,
+    "completed_date": "2026-04-08",
     "carryover_from": "2026-04-07",
     "created_at": "2026-04-07T02:52:37.687763",
-    "updated_at": "2026-04-07T02:53:00.319661"
+    "updated_at": "2026-04-08T08:13:56.406478"
   },
   {
     "id": "081b21ed-9a8b-440b-bf3d-a64093a94838",
