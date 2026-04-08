@@ -385,5 +385,20 @@
     "carryover_from": "2026-04-07",
     "created_at": "2026-04-07T08:19:53.056407",
     "updated_at": "2026-04-07T08:19:53.056420"
+  },
+  {
+    "id": "aadf95c2-0d3e-44ea-9eaf-30c06af09e42",
+    "title": "브검 아이스크림 메이커 그룹 계약",
+    "assignees": [
+      "하민수"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-08",
+    "target_date": "2026-04-08",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-08T00:31:23.031163",
+    "updated_at": "2026-04-08T00:31:23.031176"
   }
 ]
