@@ -613,5 +613,20 @@
     "carryover_from": null,
     "created_at": "2026-04-08T09:06:12.536330",
     "updated_at": "2026-04-08T09:06:15.578889"
+  },
+  {
+    "id": "aa641776-8739-4eb9-9d5c-a699c71d08c5",
+    "title": "4월 믹스 - 네쇼라 차액분 반영 필요",
+    "assignees": [
+      "노은지"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-08",
+    "target_date": "2026-04-08",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-08T10:17:24.482289",
+    "updated_at": "2026-04-08T10:17:24.482297"
   }
 ]
