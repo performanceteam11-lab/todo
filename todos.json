@@ -40,13 +40,13 @@
       "고해일"
     ],
     "details": "",
-    "status": "진행중",
+    "status": "완료",
     "created_date": "2026-04-07",
     "target_date": "2026-04-08",
-    "completed_date": null,
+    "completed_date": "2026-04-08",
     "carryover_from": "2026-04-07",
     "created_at": "2026-04-07T02:51:44.120977",
-    "updated_at": "2026-04-07T09:32:36.374690"
+    "updated_at": "2026-04-08T00:46:05.331231"
   },
   {
     "id": "5d01c78d-b915-48be-8dfc-85f142c34b6a",
