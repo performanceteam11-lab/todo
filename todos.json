@@ -348,13 +348,13 @@
       "고해일"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "완료",
     "created_date": "2026-04-07",
     "target_date": "2026-04-08",
-    "completed_date": null,
+    "completed_date": "2026-04-08",
     "carryover_from": "2026-04-07",
     "created_at": "2026-04-07T08:19:13.594510",
-    "updated_at": "2026-04-07T08:19:13.594519"
+    "updated_at": "2026-04-08T10:18:21.144398"
   },
   {
     "id": "a56069fb-341f-477d-aad6-b0cd724f3e9a",
