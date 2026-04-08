@@ -363,13 +363,13 @@
       "고해일"
     ],
     "details": "",
-    "status": "완료",
+    "status": "대기중",
     "created_date": "2026-04-07",
     "target_date": "2026-04-08",
-    "completed_date": "2026-04-08",
+    "completed_date": null,
     "carryover_from": "2026-04-07",
     "created_at": "2026-04-07T08:19:13.594510",
-    "updated_at": "2026-04-08T01:28:02.782094"
+    "updated_at": "2026-04-07T08:19:13.594519"
   },
   {
     "id": "a56069fb-341f-477d-aad6-b0cd724f3e9a",
@@ -378,13 +378,13 @@
       "고해일"
     ],
     "details": "",
-    "status": "완료",
+    "status": "대기중",
     "created_date": "2026-04-07",
     "target_date": "2026-04-08",
-    "completed_date": "2026-04-08",
+    "completed_date": null,
     "carryover_from": "2026-04-07",
     "created_at": "2026-04-07T08:19:53.056407",
-    "updated_at": "2026-04-08T01:27:55.180662"
+    "updated_at": "2026-04-07T08:19:53.056420"
   },
   {
     "id": "aadf95c2-0d3e-44ea-9eaf-30c06af09e42",
@@ -438,13 +438,13 @@
       "유지민"
     ],
     "details": "",
-    "status": "완료",
+    "status": "대기중",
     "created_date": "2026-04-08",
     "target_date": "2026-04-08",
-    "completed_date": "2026-04-08",
+    "completed_date": null,
     "carryover_from": null,
     "created_at": "2026-04-08T00:39:55.148956",
-    "updated_at": "2026-04-08T01:33:26.910904"
+    "updated_at": "2026-04-08T00:39:55.148964"
   },
   {
     "id": "2a56c99c-ceaf-470d-8d08-4f60b926cc72",
@@ -568,5 +568,20 @@
     "carryover_from": null,
     "created_at": "2026-04-08T01:25:44.633896",
     "updated_at": "2026-04-08T01:25:44.633907"
+  },
+  {
+    "id": "73308b37-8ae4-46d0-8832-c714a78b0288",
+    "title": "브검 신상위크 후 소재 운영안 작성",
+    "assignees": [
+      "하민수"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-08",
+    "target_date": "2026-04-08",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-08T02:18:50.369854",
+    "updated_at": "2026-04-08T02:18:50.369862"
   }
 ]
