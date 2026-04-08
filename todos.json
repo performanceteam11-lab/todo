@@ -490,5 +490,20 @@
     "carryover_from": null,
     "created_at": "2026-04-08T00:46:44.250020",
     "updated_at": "2026-04-08T00:46:44.250033"
+  },
+  {
+    "id": "576b4d47-2488-4c8e-9ef9-e650e3c3c3a6",
+    "title": "파워링크 자동입찰 키워드 선정",
+    "assignees": [
+      "조세빈"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-08",
+    "target_date": "2026-04-08",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-08T00:47:12.008452",
+    "updated_at": "2026-04-08T00:47:12.008460"
   }
 ]
