@@ -585,21 +585,6 @@
     "updated_at": "2026-04-08T08:37:49.944339"
   },
   {
-    "id": "40c3993f-a26e-4d01-94ba-e35dca9cd527",
-    "title": "신상위크 소재 셋팅 일정 확인",
-    "assignees": [
-      "하민수"
-    ],
-    "details": "",
-    "status": "완료",
-    "created_date": "2026-04-08",
-    "target_date": "2026-04-08",
-    "completed_date": "2026-04-08",
-    "carryover_from": null,
-    "created_at": "2026-04-08T08:40:56.215985",
-    "updated_at": "2026-04-08T08:41:00.186698"
-  },
-  {
     "id": "c181db76-3b06-4614-aa5a-fa0e3709d734",
     "title": "브검 신상위크 이후 소재 사전 셋팅",
     "assignees": [
