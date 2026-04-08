@@ -505,5 +505,20 @@
     "carryover_from": null,
     "created_at": "2026-04-08T00:47:12.008452",
     "updated_at": "2026-04-08T00:47:12.008460"
+  },
+  {
+    "id": "a736183a-80ba-4e1b-9a47-d753e9bc7e94",
+    "title": "GFA 상품별 4월 운영 성과 확인",
+    "assignees": [
+      "조세빈"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-08",
+    "target_date": "2026-04-08",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-08T00:48:03.929093",
+    "updated_at": "2026-04-08T00:48:03.929105"
   }
 ]
