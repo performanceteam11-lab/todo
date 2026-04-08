@@ -243,13 +243,13 @@
       "유지민"
     ],
     "details": "",
-    "status": "진행중",
+    "status": "완료",
     "created_date": "2026-04-07",
     "target_date": "2026-04-08",
-    "completed_date": null,
+    "completed_date": "2026-04-08",
     "carryover_from": "2026-04-07",
     "created_at": "2026-04-07T03:50:40.291235",
-    "updated_at": "2026-04-07T11:45:43.103936"
+    "updated_at": "2026-04-08T00:38:30.267986"
   },
   {
     "id": "b1085994-999e-4036-9f76-1e6d730b88b4",
