@@ -621,12 +621,12 @@
       "조세빈"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "완료",
     "created_date": "2026-04-08",
     "target_date": "2026-04-08",
-    "completed_date": null,
+    "completed_date": "2026-04-08",
     "carryover_from": null,
     "created_at": "2026-04-08T08:09:25.492948",
-    "updated_at": "2026-04-08T08:09:25.492961"
+    "updated_at": "2026-04-08T08:09:29.580586"
   }
 ]
