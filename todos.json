@@ -40,13 +40,13 @@
       "고해일"
     ],
     "details": "",
-    "status": "진행중",
+    "status": "완료",
     "created_date": "2026-04-07",
     "target_date": "2026-04-08",
-    "completed_date": null,
+    "completed_date": "2026-04-08",
     "carryover_from": "2026-04-07",
     "created_at": "2026-04-07T02:51:44.120977",
-    "updated_at": "2026-04-07T09:32:36.374690"
+    "updated_at": "2026-04-08T00:46:05.331231"
   },
   {
     "id": "5d01c78d-b915-48be-8dfc-85f142c34b6a",
@@ -477,10 +477,10 @@
     "updated_at": "2026-04-08T00:41:20.364718"
   },
   {
-    "id": "c70f2e80-af40-420a-adc5-90958739e117",
-    "title": "브검 신상위크 운영 후 수정안 제안",
+    "id": "7bc634b5-ab90-47c3-8471-f75df843e610",
+    "title": "Daily 최적화",
     "assignees": [
-      "하민수"
+      "조세빈"
     ],
     "details": "",
     "status": "대기중",
@@ -488,7 +488,52 @@
     "target_date": "2026-04-08",
     "completed_date": null,
     "carryover_from": null,
-    "created_at": "2026-04-08T00:48:16.446413",
-    "updated_at": "2026-04-08T00:48:16.446422"
+    "created_at": "2026-04-08T00:46:44.250020",
+    "updated_at": "2026-04-08T00:46:44.250033"
+  },
+  {
+    "id": "576b4d47-2488-4c8e-9ef9-e650e3c3c3a6",
+    "title": "파워링크 자동입찰 키워드 선정",
+    "assignees": [
+      "조세빈"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-08",
+    "target_date": "2026-04-08",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-08T00:47:12.008452",
+    "updated_at": "2026-04-08T00:47:12.008460"
+  },
+  {
+    "id": "a736183a-80ba-4e1b-9a47-d753e9bc7e94",
+    "title": "GFA 상품별 4월 운영 성과 확인",
+    "assignees": [
+      "조세빈"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-08",
+    "target_date": "2026-04-08",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-08T00:48:03.929093",
+    "updated_at": "2026-04-08T00:48:03.929105"
+  },
+  {
+    "id": "ec608dd1-1789-465d-8d83-92278f92f72c",
+    "title": "쇼핑검색 시간대별 데이터 확인 및 입찰가 재조정",
+    "assignees": [
+      "조세빈"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-08",
+    "target_date": "2026-04-08",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-08T00:48:25.111026",
+    "updated_at": "2026-04-08T00:48:25.111038"
   }
 ]
