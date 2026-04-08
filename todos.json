@@ -583,5 +583,20 @@
     "carryover_from": null,
     "created_at": "2026-04-08T04:46:34.166233",
     "updated_at": "2026-04-08T08:37:49.944339"
+  },
+  {
+    "id": "40c3993f-a26e-4d01-94ba-e35dca9cd527",
+    "title": "신상위크 소재 셋팅 일정 확인",
+    "assignees": [
+      "하민수"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-08",
+    "target_date": "2026-04-08",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-08T08:40:56.215985",
+    "updated_at": "2026-04-08T08:40:56.215992"
   }
 ]
