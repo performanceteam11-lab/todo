@@ -703,20 +703,5 @@
     "carryover_from": null,
     "created_at": "2026-04-09T01:08:03.210858",
     "updated_at": "2026-04-09T01:08:03.210866"
-  },
-  {
-    "id": "386bf56a-7072-465c-89df-7dba08d4549d",
-    "title": "하이드로고 소재 기호기안 확인",
-    "assignees": [
-      "고해일"
-    ],
-    "details": "",
-    "status": "대기중",
-    "created_date": "2026-04-09",
-    "target_date": "2026-04-09",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-09T01:10:01.390135",
-    "updated_at": "2026-04-09T01:10:01.390145"
   }
 ]
