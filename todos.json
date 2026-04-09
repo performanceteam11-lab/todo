@@ -658,5 +658,20 @@
     "carryover_from": null,
     "created_at": "2026-04-09T00:44:52.234875",
     "updated_at": "2026-04-09T00:44:52.234881"
+  },
+  {
+    "id": "ea167c69-a91d-4b6b-ab13-6e020ced23fd",
+    "title": "샤크 데일리 최적화",
+    "assignees": [
+      "고해일"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-09",
+    "target_date": "2026-04-09",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-09T00:47:00.827944",
+    "updated_at": "2026-04-09T00:47:00.827953"
   }
 ]
