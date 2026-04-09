@@ -621,13 +621,13 @@
       "유지민"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "완료",
     "created_date": "2026-04-09",
     "target_date": "2026-04-09",
-    "completed_date": null,
+    "completed_date": "2026-04-09",
     "carryover_from": null,
     "created_at": "2026-04-09T00:32:47.986333",
-    "updated_at": "2026-04-09T00:32:47.986344"
+    "updated_at": "2026-04-09T07:43:16.209854"
   },
   {
     "id": "f554e115-1700-47ef-bda8-e2b0bfd2da42",
@@ -636,13 +636,13 @@
       "유지민"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "완료",
     "created_date": "2026-04-09",
     "target_date": "2026-04-09",
-    "completed_date": null,
+    "completed_date": "2026-04-09",
     "carryover_from": null,
     "created_at": "2026-04-09T00:33:01.103246",
-    "updated_at": "2026-04-09T00:33:01.103256"
+    "updated_at": "2026-04-09T07:43:21.943599"
   },
   {
     "id": "eba3f180-eef3-4608-8e69-22f8bd165735",
@@ -681,13 +681,13 @@
       "조세빈"
     ],
     "details": "",
-    "status": "완료",
+    "status": "대기중",
     "created_date": "2026-04-09",
     "target_date": "2026-04-09",
-    "completed_date": "2026-04-09",
+    "completed_date": null,
     "carryover_from": null,
     "created_at": "2026-04-09T00:34:15.935358",
-    "updated_at": "2026-04-09T08:09:10.954370"
+    "updated_at": "2026-04-09T00:34:15.935369"
   },
   {
     "id": "0fb66841-3786-4124-aa14-f4a82c0a6bcf",
@@ -786,13 +786,13 @@
       "고해일"
     ],
     "details": "",
-    "status": "완료",
+    "status": "진행중",
     "created_date": "2026-04-09",
     "target_date": "2026-04-09",
-    "completed_date": "2026-04-09",
+    "completed_date": null,
     "carryover_from": null,
     "created_at": "2026-04-09T04:13:30.836806",
-    "updated_at": "2026-04-09T08:13:01.810949"
+    "updated_at": "2026-04-09T07:16:36.900494"
   },
   {
     "id": "88e90fdf-b962-4aac-9dfd-fe6cf8e72cf6",
@@ -801,13 +801,13 @@
       "고해일"
     ],
     "details": "",
-    "status": "완료",
+    "status": "대기중",
     "created_date": "2026-04-09",
     "target_date": "2026-04-09",
-    "completed_date": "2026-04-09",
+    "completed_date": null,
     "carryover_from": null,
     "created_at": "2026-04-09T04:56:59.016177",
-    "updated_at": "2026-04-09T08:12:54.202716"
+    "updated_at": "2026-04-09T04:56:59.016207"
   },
   {
     "id": "16c2636a-7a03-45a1-829f-9368882c9629",
@@ -822,7 +822,7 @@
     "completed_date": null,
     "carryover_from": null,
     "created_at": "2026-04-09T04:57:55.733350",
-    "updated_at": "2026-04-09T08:12:51.242607"
+    "updated_at": "2026-04-09T04:57:55.733362"
   },
   {
     "id": "ed7e6aa1-3926-44ac-9944-92492aaadbc8",
@@ -870,8 +870,8 @@
     "updated_at": "2026-04-09T05:55:40.100604"
   },
   {
-    "id": "7b2f8f98-74e0-489d-a520-f4a25a36bf91",
-    "title": "샤크 쇼핑 프로모션 상시 소재 제작 요청",
+    "id": "2bc86d2e-0c4d-4032-bcb1-0f7644cf1038",
+    "title": "부스트+ 쇼핑 카테고리 변경 여부 팔로업",
     "assignees": [
       "고해일"
     ],
@@ -881,22 +881,22 @@
     "target_date": "2026-04-09",
     "completed_date": null,
     "carryover_from": null,
-    "created_at": "2026-04-09T08:55:48.010566",
-    "updated_at": "2026-04-09T08:55:48.010580"
+    "created_at": "2026-04-09T06:36:27.945670",
+    "updated_at": "2026-04-09T06:36:27.945682"
   },
   {
-    "id": "80c4fe62-a48d-44fb-95fb-465f8e7c8eb8",
-    "title": "BSA FAN 소재 기획 확인 및 컨펌 요청",
+    "id": "aa58424b-6664-4cd5-b53c-be3b665d7bf6",
+    "title": "샤크 소재기획 (FAN)",
     "assignees": [
-      "고해일"
+      "유지민"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "진행중",
     "created_date": "2026-04-09",
     "target_date": "2026-04-09",
     "completed_date": null,
     "carryover_from": null,
-    "created_at": "2026-04-09T08:55:59.643803",
-    "updated_at": "2026-04-09T08:55:59.643815"
+    "created_at": "2026-04-09T07:43:32.487351",
+    "updated_at": "2026-04-09T09:12:04.307465"
   }
 ]
