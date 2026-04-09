@@ -688,20 +688,5 @@
     "carryover_from": null,
     "created_at": "2026-04-09T00:33:11.976975",
     "updated_at": "2026-04-09T00:33:11.976982"
-  },
-  {
-    "id": "399e9bb6-b0de-46b7-9ae5-e89f5389cd6b",
-    "title": "하이드로고 BSA 소재 기획 인계",
-    "assignees": [
-      "하민수"
-    ],
-    "details": "",
-    "status": "대기중",
-    "created_date": "2026-04-09",
-    "target_date": "2026-04-09",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-09T01:07:16.332677",
-    "updated_at": "2026-04-09T01:07:16.332684"
   }
 ]
