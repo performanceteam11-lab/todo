@@ -102,15 +102,21 @@ def _gh_write(path: str, data: list, sha) -> tuple:
 def load_todos() -> list:
     if _use_github():
         data, sha = _gh_read(GITHUB_TODOS)
-        st.session_state["_todos_sha"] = sha
-        return data if isinstance(data, list) else []
+        if sha is not None:
+            st.session_state["_todos_sha"] = sha
+            return data if isinstance(data, list) else []
     if os.path.exists(DATA_FILE):
-        with open(DATA_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
+        try:
+            with open(DATA_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except (json.JSONDecodeError, ValueError):
+            pass
     return []
 
 
 def save_todos(todos: list) -> None:
+    with open(DATA_FILE, "w", encoding="utf-8") as f:
+        json.dump(todos, f, ensure_ascii=False, indent=2, default=str)
     if _use_github():
         sha = st.session_state.get("_todos_sha")
         if sha is None:
@@ -118,9 +124,8 @@ def save_todos(todos: list) -> None:
         ok, new_sha = _gh_write(GITHUB_TODOS, todos, sha)
         if ok:
             st.session_state["_todos_sha"] = new_sha
-        return
-    with open(DATA_FILE, "w", encoding="utf-8") as f:
-        json.dump(todos, f, ensure_ascii=False, indent=2, default=str)
+        else:
+            st.toast("⚠️ 클라우드 저장에 실패했습니다. 로컬에 백업되었습니다.", icon="⚠️")
 
 
 def carryover_todos():
@@ -189,15 +194,21 @@ def delete_todo(todo_id: str) -> None:
 def load_memo() -> list:
     if _use_github():
         data, sha = _gh_read(GITHUB_MEMO)
-        st.session_state["_memo_sha"] = sha
-        return data if isinstance(data, list) else []
+        if sha is not None:
+            st.session_state["_memo_sha"] = sha
+            return data if isinstance(data, list) else []
     if os.path.exists(MEMO_FILE):
-        with open(MEMO_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
+        try:
+            with open(MEMO_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except (json.JSONDecodeError, ValueError):
+            pass
     return []
 
 
 def save_memo_data(memos: list) -> None:
+    with open(MEMO_FILE, "w", encoding="utf-8") as f:
+        json.dump(memos, f, ensure_ascii=False, indent=2, default=str)
     if _use_github():
         sha = st.session_state.get("_memo_sha")
         if sha is None:
@@ -205,9 +216,8 @@ def save_memo_data(memos: list) -> None:
         ok, new_sha = _gh_write(GITHUB_MEMO, memos, sha)
         if ok:
             st.session_state["_memo_sha"] = new_sha
-        return
-    with open(MEMO_FILE, "w", encoding="utf-8") as f:
-        json.dump(memos, f, ensure_ascii=False, indent=2, default=str)
+        else:
+            st.toast("⚠️ 메모 클라우드 저장에 실패했습니다. 로컬에 백업되었습니다.", icon="⚠️")
 
 
 def get_today_todos(member: str = None) -> list:
@@ -625,17 +635,26 @@ def render_todo_row(todo: dict, key_suffix: str = ""):
         st.markdown(f'<div style="padding:6px 0;">{chips}</div>', unsafe_allow_html=True)
 
     with c_status:
-        new_status = st.selectbox(
+        widget_key = f"st_{todo['id']}_{key_suffix}"
+        if widget_key in st.session_state and st.session_state[widget_key] != status:
+            st.session_state[widget_key] = status
+
+        def _handle_status(tid=todo["id"], wk=widget_key):
+            new_val = st.session_state[wk]
+            for t in st.session_state.todos:
+                if t["id"] == tid and t["status"] != new_val:
+                    update_todo(tid, {"status": new_val})
+                    break
+
+        st.selectbox(
             "상태",
             STATUS_OPTIONS,
             index=STATUS_OPTIONS.index(status),
-            key=f"st_{todo['id']}_{key_suffix}",
+            key=widget_key,
             label_visibility="collapsed",
             format_func=lambda s: STATUS_LABEL[s],
+            on_change=_handle_status,
         )
-        if new_status != status:
-            update_todo(todo["id"], {"status": new_status})
-            st.rerun()
 
     with c_copy:
         with st.popover("📋", help="슬랙 복사"):
