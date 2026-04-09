@@ -658,5 +658,20 @@
     "carryover_from": null,
     "created_at": "2026-04-09T00:32:25.741647",
     "updated_at": "2026-04-09T00:32:25.741658"
+  },
+  {
+    "id": "a501d5b3-cbc8-4fe1-b37b-c1818e6c2b90",
+    "title": "토스 라이브마켓 집행 성과 확인",
+    "assignees": [
+      "조세빈"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-09",
+    "target_date": "2026-04-09",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-09T00:32:35.870451",
+    "updated_at": "2026-04-09T00:32:35.870458"
   }
 ]
