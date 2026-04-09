@@ -378,13 +378,13 @@
       "하민수"
     ],
     "details": "",
-    "status": "진행중",
+    "status": "대기중",
     "created_date": "2026-04-08",
     "target_date": "2026-04-09",
     "completed_date": null,
     "carryover_from": "2026-04-08",
     "created_at": "2026-04-08T00:31:23.031163",
-    "updated_at": "2026-04-09T01:06:31.558367"
+    "updated_at": "2026-04-08T00:31:23.031176"
   },
   {
     "id": "35609a3a-4e4d-4e84-be42-56f3f619d218",
@@ -468,13 +468,13 @@
       "조세빈"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "완료",
     "created_date": "2026-04-08",
     "target_date": "2026-04-09",
-    "completed_date": null,
+    "completed_date": "2026-04-09",
     "carryover_from": "2026-04-08",
     "created_at": "2026-04-08T00:47:12.008452",
-    "updated_at": "2026-04-08T00:47:12.008460"
+    "updated_at": "2026-04-09T00:35:22.483555"
   },
   {
     "id": "a736183a-80ba-4e1b-9a47-d753e9bc7e94",
@@ -483,13 +483,13 @@
       "조세빈"
     ],
     "details": "",
-    "status": "진행중",
+    "status": "대기중",
     "created_date": "2026-04-08",
     "target_date": "2026-04-09",
     "completed_date": null,
     "carryover_from": "2026-04-08",
     "created_at": "2026-04-08T00:48:03.929093",
-    "updated_at": "2026-04-08T02:24:05.521238"
+    "updated_at": "2026-04-09T00:38:01.531898"
   },
   {
     "id": "94115af1-719b-489a-bb55-40065b59c4f1",
@@ -516,13 +516,13 @@
       "조세빈"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "완료",
     "created_date": "2026-04-08",
     "target_date": "2026-04-09",
-    "completed_date": null,
+    "completed_date": "2026-04-09",
     "carryover_from": "2026-04-08",
     "created_at": "2026-04-08T03:38:02.215710",
-    "updated_at": "2026-04-08T03:38:02.215721"
+    "updated_at": "2026-04-09T00:35:26.879383"
   },
   {
     "id": "7549d8de-195a-41cb-9002-ee5614fb9602",
@@ -546,13 +546,13 @@
       "하민수"
     ],
     "details": "",
-    "status": "완료",
+    "status": "진행중",
     "created_date": "2026-04-08",
     "target_date": "2026-04-09",
-    "completed_date": "2026-04-09",
+    "completed_date": null,
     "carryover_from": "2026-04-08",
     "created_at": "2026-04-08T04:46:34.166233",
-    "updated_at": "2026-04-09T01:06:27.663491"
+    "updated_at": "2026-04-08T08:37:49.944339"
   },
   {
     "id": "c181db76-3b06-4614-aa5a-fa0e3709d734",
@@ -651,13 +651,13 @@
       "유지민"
     ],
     "details": "",
-    "status": "진행중",
+    "status": "대기중",
     "created_date": "2026-04-09",
     "target_date": "2026-04-09",
     "completed_date": null,
     "carryover_from": null,
     "created_at": "2026-04-09T00:32:47.986333",
-    "updated_at": "2026-04-09T00:59:40.729518"
+    "updated_at": "2026-04-09T00:32:47.986344"
   },
   {
     "id": "f554e115-1700-47ef-bda8-e2b0bfd2da42",
@@ -690,10 +690,10 @@
     "updated_at": "2026-04-09T00:33:11.976982"
   },
   {
-    "id": "6783ccd3-c6a1-4416-9782-c68c35dd5d43",
-    "title": "하이드로고 BSA 소재 기획",
+    "id": "d2a415f9-09ca-4a11-a60b-cd022cd456c4",
+    "title": "Daily 최적화",
     "assignees": [
-      "하민수"
+      "조세빈"
     ],
     "details": "",
     "status": "대기중",
@@ -701,14 +701,14 @@
     "target_date": "2026-04-09",
     "completed_date": null,
     "carryover_from": null,
-    "created_at": "2026-04-09T01:08:03.210858",
-    "updated_at": "2026-04-09T01:08:03.210866"
+    "created_at": "2026-04-09T00:34:03.267357",
+    "updated_at": "2026-04-09T00:34:03.267365"
   },
   {
-    "id": "efb32b2b-87a4-48ec-b2ed-57a9eccb5ce5",
-    "title": "하이드로고 소재 기획안 확인",
+    "id": "21bbb9f3-ed71-4c48-9f48-9a7aee73ae94",
+    "title": "토스 라이브마켓 집행 성과",
     "assignees": [
-      "고해일"
+      "조세빈"
     ],
     "details": "",
     "status": "대기중",
@@ -716,7 +716,22 @@
     "target_date": "2026-04-09",
     "completed_date": null,
     "carryover_from": null,
-    "created_at": "2026-04-09T01:10:11.090578",
-    "updated_at": "2026-04-09T01:10:11.090589"
+    "created_at": "2026-04-09T00:34:15.935358",
+    "updated_at": "2026-04-09T00:34:15.935369"
+  },
+  {
+    "id": "0fb66841-3786-4124-aa14-f4a82c0a6bcf",
+    "title": "BSA 아이스크림 메이커 90일 계약",
+    "assignees": [
+      "조세빈"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-09",
+    "target_date": "2026-04-09",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-09T01:11:29.433878",
+    "updated_at": "2026-04-09T01:11:29.433887"
   }
 ]
