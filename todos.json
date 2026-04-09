@@ -606,13 +606,13 @@
       "노은지"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "진행중",
     "created_date": "2026-04-08",
     "target_date": "2026-04-09",
     "completed_date": null,
     "carryover_from": "2026-04-08",
     "created_at": "2026-04-08T10:17:24.482289",
-    "updated_at": "2026-04-08T10:17:24.482297"
+    "updated_at": "2026-04-09T09:18:48.458713"
   },
   {
     "id": "ab61fc8c-3db5-4ace-afbd-6f2aeeed4be8",
