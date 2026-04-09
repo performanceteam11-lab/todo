@@ -913,5 +913,20 @@
     "carryover_from": null,
     "created_at": "2026-04-09T09:20:29.031748",
     "updated_at": "2026-04-09T09:20:33.228347"
+  },
+  {
+    "id": "0da07ccf-4d3d-40f2-b347-d59fdd6f9648",
+    "title": "리포트 대시보드 만들기",
+    "assignees": [
+      "노은지"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-09",
+    "target_date": "2026-04-09",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-09T09:20:53.316198",
+    "updated_at": "2026-04-09T09:20:53.316210"
   }
 ]
