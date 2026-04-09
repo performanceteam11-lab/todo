@@ -621,13 +621,13 @@
       "유지민"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "완료",
     "created_date": "2026-04-09",
     "target_date": "2026-04-09",
-    "completed_date": null,
+    "completed_date": "2026-04-09",
     "carryover_from": null,
     "created_at": "2026-04-09T00:32:47.986333",
-    "updated_at": "2026-04-09T00:32:47.986344"
+    "updated_at": "2026-04-09T07:43:16.209854"
   },
   {
     "id": "f554e115-1700-47ef-bda8-e2b0bfd2da42",
