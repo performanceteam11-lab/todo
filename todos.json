@@ -606,13 +606,13 @@
       "노은지"
     ],
     "details": "",
-    "status": "진행중",
+    "status": "대기중",
     "created_date": "2026-04-08",
     "target_date": "2026-04-09",
     "completed_date": null,
     "carryover_from": "2026-04-08",
     "created_at": "2026-04-08T10:17:24.482289",
-    "updated_at": "2026-04-09T09:18:48.458713"
+    "updated_at": "2026-04-08T10:17:24.482297"
   },
   {
     "id": "ab61fc8c-3db5-4ace-afbd-6f2aeeed4be8",
@@ -756,13 +756,13 @@
       "하민수"
     ],
     "details": "",
-    "status": "완료",
+    "status": "진행중",
     "created_date": "2026-04-09",
     "target_date": "2026-04-09",
-    "completed_date": "2026-04-09",
+    "completed_date": null,
     "carryover_from": null,
     "created_at": "2026-04-09T01:20:31.977080",
-    "updated_at": "2026-04-09T09:17:07.951253"
+    "updated_at": "2026-04-09T01:55:43.759743"
   },
   {
     "id": "65d67688-7113-4fed-aaa8-fac77204a1b0",
@@ -898,5 +898,20 @@
     "carryover_from": null,
     "created_at": "2026-04-09T07:43:32.487351",
     "updated_at": "2026-04-09T09:12:04.307465"
+  },
+  {
+    "id": "eff5bfa6-46c8-4a68-9b26-b81a8ffe174c",
+    "title": "BSA FAN 브랜드 검색 키워드 컨펌 팔로업",
+    "assignees": [
+      "고해일"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-09",
+    "target_date": "2026-04-09",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-09T09:19:02.704964",
+    "updated_at": "2026-04-09T09:19:02.704976"
   }
 ]
