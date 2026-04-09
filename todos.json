@@ -868,5 +868,20 @@
     "carryover_from": null,
     "created_at": "2026-04-09T05:55:37.498882",
     "updated_at": "2026-04-09T05:55:40.100604"
+  },
+  {
+    "id": "2bc86d2e-0c4d-4032-bcb1-0f7644cf1038",
+    "title": "부스트+ 쇼핑 카테고리 변경 여부 팔로업",
+    "assignees": [
+      "고해일"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-09",
+    "target_date": "2026-04-09",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-09T06:36:27.945670",
+    "updated_at": "2026-04-09T06:36:27.945682"
   }
 ]
