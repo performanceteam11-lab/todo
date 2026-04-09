@@ -645,25 +645,10 @@
     "updated_at": "2026-04-09T00:31:59.055366"
   },
   {
-    "id": "46484242-d429-4c9d-b0d4-e6095964fa8b",
-    "title": "샤크데이 네쇼라 소재 기획안 확인",
+    "id": "ab61fc8c-3db5-4ace-afbd-6f2aeeed4be8",
+    "title": "10시 인플팀 회의",
     "assignees": [
-      "고해일"
-    ],
-    "details": "",
-    "status": "대기중",
-    "created_date": "2026-04-09",
-    "target_date": "2026-04-09",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-09T00:44:52.234875",
-    "updated_at": "2026-04-09T00:44:52.234881"
-  },
-  {
-    "id": "ea167c69-a91d-4b6b-ab13-6e020ced23fd",
-    "title": "샤크 데일리 최적화",
-    "assignees": [
-      "고해일"
+      "유지민"
     ],
     "details": "",
     "status": "진행중",
@@ -671,7 +656,37 @@
     "target_date": "2026-04-09",
     "completed_date": null,
     "carryover_from": null,
-    "created_at": "2026-04-09T00:47:00.827944",
-    "updated_at": "2026-04-09T00:47:05.175202"
+    "created_at": "2026-04-09T00:32:47.986333",
+    "updated_at": "2026-04-09T00:59:40.729518"
+  },
+  {
+    "id": "f554e115-1700-47ef-bda8-e2b0bfd2da42",
+    "title": "샤크데이 소재기획",
+    "assignees": [
+      "유지민"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-09",
+    "target_date": "2026-04-09",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-09T00:33:01.103246",
+    "updated_at": "2026-04-09T00:33:01.103256"
+  },
+  {
+    "id": "eba3f180-eef3-4608-8e69-22f8bd165735",
+    "title": "레퍼런스 시트 업데이트",
+    "assignees": [
+      "유지민"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-09",
+    "target_date": "2026-04-09",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-09T00:33:11.976975",
+    "updated_at": "2026-04-09T00:33:11.976982"
   }
 ]
