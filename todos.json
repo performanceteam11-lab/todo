@@ -786,13 +786,13 @@
       "고해일"
     ],
     "details": "",
-    "status": "진행중",
+    "status": "완료",
     "created_date": "2026-04-09",
     "target_date": "2026-04-09",
-    "completed_date": null,
+    "completed_date": "2026-04-09",
     "carryover_from": null,
     "created_at": "2026-04-09T04:13:30.836806",
-    "updated_at": "2026-04-09T07:16:36.900494"
+    "updated_at": "2026-04-09T09:16:54.168632"
   },
   {
     "id": "88e90fdf-b962-4aac-9dfd-fe6cf8e72cf6",
