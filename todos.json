@@ -883,5 +883,20 @@
     "carryover_from": null,
     "created_at": "2026-04-09T08:55:48.010566",
     "updated_at": "2026-04-09T08:55:48.010580"
+  },
+  {
+    "id": "80c4fe62-a48d-44fb-95fb-465f8e7c8eb8",
+    "title": "BSA FAN 소재 기획 확인 및 컨펌 요청",
+    "assignees": [
+      "고해일"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-09",
+    "target_date": "2026-04-09",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-09T08:55:59.643803",
+    "updated_at": "2026-04-09T08:55:59.643815"
   }
 ]
