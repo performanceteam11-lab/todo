@@ -477,21 +477,6 @@
     "updated_at": "2026-04-09T00:35:22.483555"
   },
   {
-    "id": "a736183a-80ba-4e1b-9a47-d753e9bc7e94",
-    "title": "GFA 상품별 4월 운영 성과 확인",
-    "assignees": [
-      "조세빈"
-    ],
-    "details": "",
-    "status": "대기중",
-    "created_date": "2026-04-08",
-    "target_date": "2026-04-09",
-    "completed_date": null,
-    "carryover_from": "2026-04-08",
-    "created_at": "2026-04-08T00:48:03.929093",
-    "updated_at": "2026-04-09T00:38:01.531898"
-  },
-  {
     "id": "94115af1-719b-489a-bb55-40065b59c4f1",
     "title": "예산 관리",
     "assignees": [
