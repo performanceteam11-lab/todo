@@ -906,12 +906,12 @@
       "노은지"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "완료",
     "created_date": "2026-04-09",
     "target_date": "2026-04-09",
-    "completed_date": null,
+    "completed_date": "2026-04-09",
     "carryover_from": null,
     "created_at": "2026-04-09T09:20:29.031748",
-    "updated_at": "2026-04-09T09:20:29.031756"
+    "updated_at": "2026-04-09T09:20:33.228347"
   }
 ]
