@@ -703,5 +703,20 @@
     "carryover_from": null,
     "created_at": "2026-04-09T01:08:03.210858",
     "updated_at": "2026-04-09T01:08:03.210866"
+  },
+  {
+    "id": "efb32b2b-87a4-48ec-b2ed-57a9eccb5ce5",
+    "title": "하이드로고 소재 기획안 확인",
+    "assignees": [
+      "고해일"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-09",
+    "target_date": "2026-04-09",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-09T01:10:11.090578",
+    "updated_at": "2026-04-09T01:10:11.090589"
   }
 ]
