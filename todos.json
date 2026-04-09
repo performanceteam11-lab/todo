@@ -468,13 +468,13 @@
       "조세빈"
     ],
     "details": "",
-    "status": "완료",
+    "status": "대기중",
     "created_date": "2026-04-08",
     "target_date": "2026-04-09",
-    "completed_date": "2026-04-09",
+    "completed_date": null,
     "carryover_from": "2026-04-08",
     "created_at": "2026-04-08T00:47:12.008452",
-    "updated_at": "2026-04-09T00:32:41.792889"
+    "updated_at": "2026-04-08T00:47:12.008460"
   },
   {
     "id": "a736183a-80ba-4e1b-9a47-d753e9bc7e94",
@@ -516,13 +516,13 @@
       "조세빈"
     ],
     "details": "",
-    "status": "완료",
+    "status": "대기중",
     "created_date": "2026-04-08",
     "target_date": "2026-04-09",
-    "completed_date": "2026-04-09",
+    "completed_date": null,
     "carryover_from": "2026-04-08",
     "created_at": "2026-04-08T03:38:02.215710",
-    "updated_at": "2026-04-09T00:32:38.907813"
+    "updated_at": "2026-04-08T03:38:02.215721"
   },
   {
     "id": "7549d8de-195a-41cb-9002-ee5614fb9602",
@@ -645,10 +645,10 @@
     "updated_at": "2026-04-09T00:31:59.055366"
   },
   {
-    "id": "fd6cef71-0d47-4e8d-a625-ab3396743cef",
-    "title": "Daily 최적화",
+    "id": "ab61fc8c-3db5-4ace-afbd-6f2aeeed4be8",
+    "title": "10시 인플팀 회의",
     "assignees": [
-      "조세빈"
+      "유지민"
     ],
     "details": "",
     "status": "대기중",
@@ -656,22 +656,7 @@
     "target_date": "2026-04-09",
     "completed_date": null,
     "carryover_from": null,
-    "created_at": "2026-04-09T00:32:25.741647",
-    "updated_at": "2026-04-09T00:32:25.741658"
-  },
-  {
-    "id": "a501d5b3-cbc8-4fe1-b37b-c1818e6c2b90",
-    "title": "토스 라이브마켓 집행 성과 확인",
-    "assignees": [
-      "조세빈"
-    ],
-    "details": "",
-    "status": "대기중",
-    "created_date": "2026-04-09",
-    "target_date": "2026-04-09",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-09T00:32:35.870451",
-    "updated_at": "2026-04-09T00:32:35.870458"
+    "created_at": "2026-04-09T00:32:47.986333",
+    "updated_at": "2026-04-09T00:32:47.986344"
   }
 ]
