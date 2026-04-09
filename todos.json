@@ -868,20 +868,5 @@
     "carryover_from": null,
     "created_at": "2026-04-09T05:55:37.498882",
     "updated_at": "2026-04-09T05:55:40.100604"
-  },
-  {
-    "id": "a49e2b6f-290f-4b1e-8ae8-7b82b64353e9",
-    "title": "닌자 상시 프로모션 소재 컨펌 후 제작 요청",
-    "assignees": [
-      "고해일"
-    ],
-    "details": "",
-    "status": "대기중",
-    "created_date": "2026-04-09",
-    "target_date": "2026-04-09",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-09T08:55:33.239771",
-    "updated_at": "2026-04-09T08:55:33.239784"
   }
 ]
