@@ -823,5 +823,20 @@
     "carryover_from": null,
     "created_at": "2026-04-09T04:56:59.016177",
     "updated_at": "2026-04-09T04:56:59.016207"
+  },
+  {
+    "id": "16c2636a-7a03-45a1-829f-9368882c9629",
+    "title": "BSA FAN 브랜드 검색 계약 (+90일)",
+    "assignees": [
+      "고해일"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-09",
+    "target_date": "2026-04-09",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-09T04:57:55.733350",
+    "updated_at": "2026-04-09T04:57:55.733362"
   }
 ]
