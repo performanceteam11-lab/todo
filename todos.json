@@ -861,12 +861,12 @@
       "조세빈"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "완료",
     "created_date": "2026-04-09",
     "target_date": "2026-04-09",
-    "completed_date": null,
+    "completed_date": "2026-04-09",
     "carryover_from": null,
     "created_at": "2026-04-09T05:55:37.498882",
-    "updated_at": "2026-04-09T05:55:37.498890"
+    "updated_at": "2026-04-09T05:55:40.100604"
   }
 ]
