@@ -838,5 +838,20 @@
     "carryover_from": null,
     "created_at": "2026-04-09T04:57:55.733350",
     "updated_at": "2026-04-09T04:57:55.733362"
+  },
+  {
+    "id": "ed7e6aa1-3926-44ac-9944-92492aaadbc8",
+    "title": "닌자 SA/SSA 시간대별 성과 확인 및 증액",
+    "assignees": [
+      "조세빈"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-09",
+    "target_date": "2026-04-09",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-09T05:02:33.501421",
+    "updated_at": "2026-04-09T05:02:33.501434"
   }
 ]
