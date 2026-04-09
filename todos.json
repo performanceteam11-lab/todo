@@ -606,13 +606,13 @@
       "노은지"
     ],
     "details": "",
-    "status": "진행중",
+    "status": "대기중",
     "created_date": "2026-04-08",
     "target_date": "2026-04-09",
     "completed_date": null,
     "carryover_from": "2026-04-08",
     "created_at": "2026-04-08T10:17:24.482289",
-    "updated_at": "2026-04-09T09:19:55.327203"
+    "updated_at": "2026-04-08T10:17:24.482297"
   },
   {
     "id": "ab61fc8c-3db5-4ace-afbd-6f2aeeed4be8",
@@ -733,21 +733,6 @@
     "carryover_from": null,
     "created_at": "2026-04-09T01:20:16.681483",
     "updated_at": "2026-04-09T07:46:19.682951"
-  },
-  {
-    "id": "5f17b5e9-bd6e-46d1-87a8-6eec5024b70d",
-    "title": "브검 데일리 데이터 백업 인계",
-    "assignees": [
-      "하민수"
-    ],
-    "details": "",
-    "status": "대기중",
-    "created_date": "2026-04-09",
-    "target_date": "2026-04-09",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-09T01:20:23.458709",
-    "updated_at": "2026-04-09T01:20:23.458717"
   },
   {
     "id": "f4f15196-37dd-4ac4-9001-b66dd50e725f",
@@ -891,42 +876,12 @@
       "유지민"
     ],
     "details": "",
-    "status": "진행중",
-    "created_date": "2026-04-09",
-    "target_date": "2026-04-09",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-09T07:43:32.487351",
-    "updated_at": "2026-04-09T09:19:36.890671"
-  },
-  {
-    "id": "a0a4bc3a-827b-4ef4-955b-bc7a39f8fd69",
-    "title": "브검 자동화 솔루션 만들기",
-    "assignees": [
-      "노은지"
-    ],
-    "details": "",
-    "status": "완료",
-    "created_date": "2026-04-09",
-    "target_date": "2026-04-09",
-    "completed_date": "2026-04-09",
-    "carryover_from": null,
-    "created_at": "2026-04-09T09:20:29.031748",
-    "updated_at": "2026-04-09T09:20:33.228347"
-  },
-  {
-    "id": "0da07ccf-4d3d-40f2-b347-d59fdd6f9648",
-    "title": "리포트 대시보드 만들기",
-    "assignees": [
-      "노은지"
-    ],
-    "details": "",
     "status": "대기중",
     "created_date": "2026-04-09",
     "target_date": "2026-04-09",
     "completed_date": null,
     "carryover_from": null,
-    "created_at": "2026-04-09T09:20:53.316198",
-    "updated_at": "2026-04-09T09:20:53.316210"
+    "created_at": "2026-04-09T07:43:32.487351",
+    "updated_at": "2026-04-09T07:43:32.487359"
   }
 ]
