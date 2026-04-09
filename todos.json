@@ -282,21 +282,6 @@
     "updated_at": "2026-04-07T07:45:24.334721"
   },
   {
-    "id": "7c14a07a-a14a-431d-9dd9-fe390d0cb409",
-    "title": "애드부스트 캠페인 개선안 작성",
-    "assignees": [
-      "하민수"
-    ],
-    "details": "",
-    "status": "대기중",
-    "created_date": "2026-04-07",
-    "target_date": "2026-04-09",
-    "completed_date": null,
-    "carryover_from": "2026-04-07",
-    "created_at": "2026-04-07T07:45:36.704373",
-    "updated_at": "2026-04-08T00:30:18.553202"
-  },
-  {
     "id": "3b7a2ce1-d338-49b4-858e-492402441e93",
     "title": "샤크데이 네쇼라 소재 기획",
     "assignees": [
