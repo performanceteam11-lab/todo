@@ -883,5 +883,20 @@
     "carryover_from": null,
     "created_at": "2026-04-09T06:36:27.945670",
     "updated_at": "2026-04-09T06:36:27.945682"
+  },
+  {
+    "id": "aa58424b-6664-4cd5-b53c-be3b665d7bf6",
+    "title": "샤크 소재기획 (FAN)",
+    "assignees": [
+      "유지민"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-09",
+    "target_date": "2026-04-09",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-09T07:43:32.487351",
+    "updated_at": "2026-04-09T07:43:32.487359"
   }
 ]
