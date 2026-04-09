@@ -853,20 +853,5 @@
     "carryover_from": null,
     "created_at": "2026-04-09T05:02:33.501421",
     "updated_at": "2026-04-09T05:02:36.437750"
-  },
-  {
-    "id": "2705a236-94d2-4998-9bbc-227d2ffeebba",
-    "title": "닌자 상시 쇼핑프로모션 확인",
-    "assignees": [
-      "조세빈"
-    ],
-    "details": "",
-    "status": "대기중",
-    "created_date": "2026-04-09",
-    "target_date": "2026-04-09",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-09T05:03:07.459857",
-    "updated_at": "2026-04-09T05:03:07.459865"
   }
 ]
