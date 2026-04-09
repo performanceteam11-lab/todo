@@ -630,21 +630,6 @@
     "updated_at": "2026-04-08T10:17:24.482297"
   },
   {
-    "id": "c5811237-8d08-452d-b6ff-08e7f317507f",
-    "title": "샤크데이 주력 상품 및 할인율 확인하기",
-    "assignees": [
-      "고해일"
-    ],
-    "details": "",
-    "status": "대기중",
-    "created_date": "2026-04-09",
-    "target_date": "2026-04-09",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-09T00:31:59.055356",
-    "updated_at": "2026-04-09T00:31:59.055366"
-  },
-  {
     "id": "ab61fc8c-3db5-4ace-afbd-6f2aeeed4be8",
     "title": "10시 인플팀 회의",
     "assignees": [
