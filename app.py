@@ -206,8 +206,8 @@ def add_todo(title: str, assignees: list) -> None:
     }
     if _use_supabase():
         try:
-            row = dict(todo)
-            row["assignees"] = json.dumps(assignees, ensure_ascii=False)
+            # details 컬럼은 DB 스키마에 없으므로 제외, assignees는 리스트 그대로 전달
+            row = {k: v for k, v in todo.items() if k != "details"}
             get_supabase().table("todos").insert(row).execute()
         except Exception as e:
             st.warning(f"DB 저장 오류: {e}")
@@ -226,10 +226,8 @@ def update_todo(todo_id: str, updates: dict) -> None:
                 st.session_state.todos[i]["completed_date"] = None
             if _use_supabase():
                 try:
-                    db_updates = {k: v for k, v in st.session_state.todos[i].items()}
-                    db_updates["assignees"] = json.dumps(
-                        db_updates.get("assignees", []), ensure_ascii=False
-                    )
+                    # details 컬럼은 DB 스키마에 없으므로 제외, assignees는 리스트 그대로 전달
+                    db_updates = {k: v for k, v in st.session_state.todos[i].items() if k != "details"}
                     get_supabase().table("todos").update(db_updates).eq("id", todo_id).execute()
                 except Exception as e:
                     st.warning(f"DB 업데이트 오류: {e}")
