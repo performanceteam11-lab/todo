@@ -5,6 +5,7 @@ import base64
 import requests
 from datetime import datetime, date, timedelta
 import uuid
+from supabase import create_client, Client
 
 # ─────────────────────────────────────────────
 # 상수
@@ -17,6 +18,20 @@ MEMO_FILE = os.path.join(os.path.dirname(__file__), "memo.json")
 GITHUB_REPO = "performanceteam11-lab/todo"
 GITHUB_TODOS = "todos.json"
 GITHUB_MEMO  = "memo.json"
+
+
+@st.cache_resource
+def get_supabase() -> Client:
+    url = st.secrets["SUPABASE_URL"]
+    key = st.secrets["SUPABASE_KEY"]
+    return create_client(url, key)
+
+
+def _use_supabase() -> bool:
+    try:
+        return bool(st.secrets.get("SUPABASE_URL"))
+    except Exception:
+        return False
 
 STATUS_OPTIONS = ["대기중", "진행중", "완료"]
 STATUS_EMOJI = {"대기중": "⏳", "진행중": "🔄", "완료": "✅"}
@@ -97,26 +112,37 @@ def _gh_write(path: str, data: list, sha) -> tuple:
 
 
 # ─────────────────────────────────────────────
-# 데이터 I/O (로컬 ↔ GitHub 자동 전환)
+# 데이터 I/O (Supabase → GitHub → 로컬 순서로 자동 전환)
 # ─────────────────────────────────────────────
 def load_todos() -> list:
+    if _use_supabase():
+        try:
+            rows = get_supabase().table("todos").select("*").execute().data or []
+            for row in rows:
+                if isinstance(row.get("assignees"), str):
+                    row["assignees"] = json.loads(row["assignees"])
+            return rows
+        except Exception as e:
+            st.warning(f"DB 로드 오류: {e}")
+            return []
     if _use_github():
         data, sha = _gh_read(GITHUB_TODOS)
         if sha is not None:
             st.session_state["_todos_sha"] = sha
-            return data if isinstance(data, list) else []
+        return data if isinstance(data, list) else []
     if os.path.exists(DATA_FILE):
         try:
             with open(DATA_FILE, "r", encoding="utf-8") as f:
                 return json.load(f)
-        except (json.JSONDecodeError, ValueError):
+        except Exception:
             pass
     return []
 
 
 def save_todos(todos: list) -> None:
-    with open(DATA_FILE, "w", encoding="utf-8") as f:
-        json.dump(todos, f, ensure_ascii=False, indent=2, default=str)
+    """Supabase 사용 시 개별 함수(add/update/delete)에서 처리하므로 no-op"""
+    if _use_supabase():
+        return
     if _use_github():
         sha = st.session_state.get("_todos_sha")
         if sha is None:
@@ -124,31 +150,43 @@ def save_todos(todos: list) -> None:
         ok, new_sha = _gh_write(GITHUB_TODOS, todos, sha)
         if ok:
             st.session_state["_todos_sha"] = new_sha
-        else:
-            st.toast("⚠️ 클라우드 저장에 실패했습니다. 로컬에 백업되었습니다.", icon="⚠️")
+        return
+    with open(DATA_FILE, "w", encoding="utf-8") as f:
+        json.dump(todos, f, ensure_ascii=False, indent=2, default=str)
 
 
 def carryover_todos():
     """앱 시작 시 미완료 TODO를 오늘 날짜로 자동 이월"""
-    changed = False
+    changed_ids = []
     for i, todo in enumerate(st.session_state.todos):
-        # 하위 호환: 기존 todos에 target_date 없을 경우 created_at 기준으로 세팅
         if "target_date" not in todo:
             created = todo.get("created_at", TODAY)[:10]
             st.session_state.todos[i]["target_date"] = created
             st.session_state.todos[i]["created_date"] = created
             st.session_state.todos[i].setdefault("completed_date", None)
             st.session_state.todos[i].setdefault("carryover_from", None)
-            changed = True
 
         target = st.session_state.todos[i]["target_date"]
         if target < TODAY and todo.get("status") != "완료":
             if not st.session_state.todos[i].get("carryover_from"):
                 st.session_state.todos[i]["carryover_from"] = target
             st.session_state.todos[i]["target_date"] = TODAY
-            changed = True
+            changed_ids.append(st.session_state.todos[i]["id"])
 
-    if changed:
+    if changed_ids and _use_supabase():
+        try:
+            sb = get_supabase()
+            for tid in changed_ids:
+                todo = next((t for t in st.session_state.todos if t["id"] == tid), None)
+                if todo:
+                    sb.table("todos").update({
+                        "target_date": TODAY,
+                        "carryover_from": todo.get("carryover_from"),
+                        "updated_at": datetime.now().isoformat(),
+                    }).eq("id", tid).execute()
+        except Exception as e:
+            st.warning(f"이월 처리 오류: {e}")
+    elif changed_ids:
         save_todos(st.session_state.todos)
 
 
@@ -166,6 +204,13 @@ def add_todo(title: str, assignees: list) -> None:
         "created_at": datetime.now().isoformat(),
         "updated_at": datetime.now().isoformat(),
     }
+    if _use_supabase():
+        try:
+            row = dict(todo)
+            row["assignees"] = json.dumps(assignees, ensure_ascii=False)
+            get_supabase().table("todos").insert(row).execute()
+        except Exception as e:
+            st.warning(f"DB 저장 오류: {e}")
     st.session_state.todos.append(todo)
     save_todos(st.session_state.todos)
 
@@ -179,36 +224,59 @@ def update_todo(todo_id: str, updates: dict) -> None:
                 st.session_state.todos[i]["completed_date"] = TODAY
             elif "status" in updates:
                 st.session_state.todos[i]["completed_date"] = None
-            save_todos(st.session_state.todos)
+            if _use_supabase():
+                try:
+                    db_updates = {k: v for k, v in st.session_state.todos[i].items()}
+                    db_updates["assignees"] = json.dumps(
+                        db_updates.get("assignees", []), ensure_ascii=False
+                    )
+                    get_supabase().table("todos").update(db_updates).eq("id", todo_id).execute()
+                except Exception as e:
+                    st.warning(f"DB 업데이트 오류: {e}")
+            else:
+                save_todos(st.session_state.todos)
             break
 
 
 def delete_todo(todo_id: str) -> None:
+    if _use_supabase():
+        try:
+            get_supabase().table("todos").delete().eq("id", todo_id).execute()
+        except Exception as e:
+            st.warning(f"DB 삭제 오류: {e}")
     st.session_state.todos = [t for t in st.session_state.todos if t["id"] != todo_id]
     save_todos(st.session_state.todos)
 
 
 # ─────────────────────────────────────────────
-# 메모 I/O (로컬 ↔ GitHub 자동 전환)
+# 메모 I/O (Supabase → GitHub → 로컬 순서로 자동 전환)
 # ─────────────────────────────────────────────
 def load_memo() -> list:
+    if _use_supabase():
+        try:
+            rows = get_supabase().table("memos").select("*").order("created_at", desc=True).execute().data or []
+            return rows
+        except Exception as e:
+            st.warning(f"메모 DB 로드 오류: {e}")
+            return []
     if _use_github():
         data, sha = _gh_read(GITHUB_MEMO)
         if sha is not None:
             st.session_state["_memo_sha"] = sha
-            return data if isinstance(data, list) else []
+        return data if isinstance(data, list) else []
     if os.path.exists(MEMO_FILE):
         try:
             with open(MEMO_FILE, "r", encoding="utf-8") as f:
                 return json.load(f)
-        except (json.JSONDecodeError, ValueError):
+        except Exception:
             pass
     return []
 
 
 def save_memo_data(memos: list) -> None:
-    with open(MEMO_FILE, "w", encoding="utf-8") as f:
-        json.dump(memos, f, ensure_ascii=False, indent=2, default=str)
+    """Supabase 사용 시 render_memo_section 내부에서 직접 처리하므로 no-op"""
+    if _use_supabase():
+        return
     if _use_github():
         sha = st.session_state.get("_memo_sha")
         if sha is None:
@@ -216,8 +284,9 @@ def save_memo_data(memos: list) -> None:
         ok, new_sha = _gh_write(GITHUB_MEMO, memos, sha)
         if ok:
             st.session_state["_memo_sha"] = new_sha
-        else:
-            st.toast("⚠️ 메모 클라우드 저장에 실패했습니다. 로컬에 백업되었습니다.", icon="⚠️")
+        return
+    with open(MEMO_FILE, "w", encoding="utf-8") as f:
+        json.dump(memos, f, ensure_ascii=False, indent=2, default=str)
 
 
 def get_today_todos(member: str = None) -> list:
@@ -475,6 +544,11 @@ def render_memo_section():
                 "created_at": datetime.now().isoformat(),
                 "updated_at": datetime.now().isoformat(),
             }
+            if _use_supabase():
+                try:
+                    get_supabase().table("memos").insert(memo_item).execute()
+                except Exception as e:
+                    st.warning(f"메모 저장 오류: {e}")
             st.session_state.memos.insert(0, memo_item)
             save_memo_data(st.session_state.memos)
             st.rerun()
@@ -500,11 +574,19 @@ def render_memo_section():
                     ea, eb, _ = st.columns([1, 1, 4])
                     with ea:
                         if st.form_submit_button("💾 저장", type="primary"):
+                            now = datetime.now().isoformat()
                             for i, m in enumerate(st.session_state.memos):
                                 if m["id"] == mid:
                                     st.session_state.memos[i]["content"] = edited.strip()
-                                    st.session_state.memos[i]["updated_at"] = datetime.now().isoformat()
+                                    st.session_state.memos[i]["updated_at"] = now
                                     break
+                            if _use_supabase():
+                                try:
+                                    get_supabase().table("memos").update(
+                                        {"content": edited.strip(), "updated_at": now}
+                                    ).eq("id", mid).execute()
+                                except Exception as e:
+                                    st.warning(f"메모 수정 오류: {e}")
                             save_memo_data(st.session_state.memos)
                             st.session_state.memo_edit_id = None
                             st.rerun()
@@ -532,6 +614,11 @@ def render_memo_section():
                 with col_btn2:
                     st.markdown("<div style='height:10px'></div>", unsafe_allow_html=True)
                     if st.button("🗑️", key=f"memo_del_{mid}", help="삭제"):
+                        if _use_supabase():
+                            try:
+                                get_supabase().table("memos").delete().eq("id", mid).execute()
+                            except Exception as e:
+                                st.warning(f"메모 삭제 오류: {e}")
                         st.session_state.memos = [m for m in st.session_state.memos if m["id"] != mid]
                         save_memo_data(st.session_state.memos)
                         st.rerun()
@@ -954,8 +1041,15 @@ def main():
     )
     inject_css()
 
-    if "todos" not in st.session_state:
+    # Supabase 사용 시 항상 최신 데이터 로드 (다중 사용자 충돌 방지)
+    if _use_supabase():
         st.session_state.todos = load_todos()
+        if "memos" in st.session_state:
+            st.session_state.memos = load_memo()
+    else:
+        if "todos" not in st.session_state:
+            st.session_state.todos = load_todos()
+
     if "current_page" not in st.session_state:
         st.session_state.current_page = "전체"
     if "carryover_done" not in st.session_state:
