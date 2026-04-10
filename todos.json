@@ -943,5 +943,20 @@
     "carryover_from": null,
     "created_at": "2026-04-10T04:52:02.872768",
     "updated_at": "2026-04-10T05:49:56.940263"
+  },
+  {
+    "id": "ce0b9eec-1a25-4cef-8ea7-9de262ad8bb6",
+    "title": "터보블레이드 파워링크 소재 기획",
+    "assignees": [
+      "하민수"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-10",
+    "target_date": "2026-04-10",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-10T07:21:46.501396",
+    "updated_at": "2026-04-10T07:21:46.501404"
   }
 ]
