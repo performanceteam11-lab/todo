@@ -876,13 +876,13 @@
       "유지민"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "완료",
     "created_date": "2026-04-09",
     "target_date": "2026-04-10",
-    "completed_date": null,
+    "completed_date": "2026-04-10",
     "carryover_from": "2026-04-09",
     "created_at": "2026-04-09T07:43:32.487351",
-    "updated_at": "2026-04-09T07:43:32.487359"
+    "updated_at": "2026-04-10T06:21:45.045173"
   },
   {
     "id": "5f40f1c8-1bd5-450b-82ed-78a3645fd406",
