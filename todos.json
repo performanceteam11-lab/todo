@@ -891,13 +891,13 @@
       "하민수"
     ],
     "details": "",
-    "status": "진행중",
+    "status": "완료",
     "created_date": "2026-04-10",
     "target_date": "2026-04-10",
-    "completed_date": null,
+    "completed_date": "2026-04-10",
     "carryover_from": null,
     "created_at": "2026-04-10T00:45:50.721555",
-    "updated_at": "2026-04-10T05:50:06.970900"
+    "updated_at": "2026-04-10T07:21:22.027161"
   },
   {
     "id": "b325b58b-1e43-45fe-9b1b-df2e48cc1cd5",
