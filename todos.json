@@ -973,5 +973,20 @@
     "carryover_from": null,
     "created_at": "2026-04-10T03:20:16.302341",
     "updated_at": "2026-04-10T03:20:16.302354"
+  },
+  {
+    "id": "6417fb98-cb4d-462c-80d8-38f8f0a4c7ee",
+    "title": "쿠팡 매출최적화/수동성과형 광고 예산 이관",
+    "assignees": [
+      "고해일"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-10",
+    "target_date": "2026-04-10",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-10T05:04:39.537841",
+    "updated_at": "2026-04-10T05:04:39.537847"
   }
 ]
