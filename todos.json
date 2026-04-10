@@ -928,5 +928,20 @@
     "carryover_from": null,
     "created_at": "2026-04-10T00:46:17.275668",
     "updated_at": "2026-04-10T04:29:40.505621"
+  },
+  {
+    "id": "ba6ad80d-4c1e-4dcc-808e-e84603780fb9",
+    "title": "공유 모델 가이드 정리",
+    "assignees": [
+      "하민수"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-10",
+    "target_date": "2026-04-10",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-10T04:52:02.872768",
+    "updated_at": "2026-04-10T04:52:02.872782"
   }
 ]
