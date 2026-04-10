@@ -936,13 +936,13 @@
       "조세빈"
     ],
     "details": "",
-    "status": "진행중",
+    "status": "완료",
     "created_date": "2026-04-10",
     "target_date": "2026-04-10",
-    "completed_date": null,
+    "completed_date": "2026-04-10",
     "carryover_from": null,
     "created_at": "2026-04-10T02:07:38.940805",
-    "updated_at": "2026-04-10T02:07:41.325905"
+    "updated_at": "2026-04-10T03:20:09.217663"
   },
   {
     "id": "980049e1-2c20-4d4b-bcab-406989b17575",
