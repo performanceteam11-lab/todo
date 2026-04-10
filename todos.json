@@ -681,13 +681,13 @@
       "조세빈"
     ],
     "details": "",
-    "status": "완료",
+    "status": "대기중",
     "created_date": "2026-04-09",
     "target_date": "2026-04-10",
-    "completed_date": "2026-04-10",
+    "completed_date": null,
     "carryover_from": "2026-04-09",
     "created_at": "2026-04-09T00:34:15.935358",
-    "updated_at": "2026-04-10T02:07:30.821444"
+    "updated_at": "2026-04-09T00:34:15.935369"
   },
   {
     "id": "0fb66841-3786-4124-aa14-f4a82c0a6bcf",
@@ -771,13 +771,13 @@
       "고해일"
     ],
     "details": "",
-    "status": "완료",
+    "status": "진행중",
     "created_date": "2026-04-09",
     "target_date": "2026-04-10",
-    "completed_date": "2026-04-10",
+    "completed_date": null,
     "carryover_from": "2026-04-09",
     "created_at": "2026-04-09T04:13:30.836806",
-    "updated_at": "2026-04-10T05:04:15.362276"
+    "updated_at": "2026-04-09T07:16:36.900494"
   },
   {
     "id": "88e90fdf-b962-4aac-9dfd-fe6cf8e72cf6",
@@ -786,13 +786,13 @@
       "고해일"
     ],
     "details": "",
-    "status": "완료",
+    "status": "대기중",
     "created_date": "2026-04-09",
     "target_date": "2026-04-10",
-    "completed_date": "2026-04-10",
+    "completed_date": null,
     "carryover_from": "2026-04-09",
     "created_at": "2026-04-09T04:56:59.016177",
-    "updated_at": "2026-04-10T05:04:09.701226"
+    "updated_at": "2026-04-09T04:56:59.016207"
   },
   {
     "id": "16c2636a-7a03-45a1-829f-9368882c9629",
@@ -921,19 +921,19 @@
       "하민수"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "완료",
     "created_date": "2026-04-10",
     "target_date": "2026-04-10",
-    "completed_date": null,
+    "completed_date": "2026-04-10",
     "carryover_from": null,
     "created_at": "2026-04-10T00:46:17.275668",
-    "updated_at": "2026-04-10T00:46:17.275675"
+    "updated_at": "2026-04-10T04:29:40.505621"
   },
   {
-    "id": "b9539847-b1b6-4a8e-b080-d346263673b2",
-    "title": "daily 최적화",
+    "id": "ba6ad80d-4c1e-4dcc-808e-e84603780fb9",
+    "title": "공유 모델 가이드 정리",
     "assignees": [
-      "조세빈"
+      "하민수"
     ],
     "details": "",
     "status": "완료",
@@ -941,112 +941,7 @@
     "target_date": "2026-04-10",
     "completed_date": "2026-04-10",
     "carryover_from": null,
-    "created_at": "2026-04-10T02:07:38.940805",
-    "updated_at": "2026-04-10T03:20:09.217663"
-  },
-  {
-    "id": "980049e1-2c20-4d4b-bcab-406989b17575",
-    "title": "쿠팡 캠페인 구조 확인 및 예산 이관",
-    "assignees": [
-      "조세빈"
-    ],
-    "details": "",
-    "status": "완료",
-    "created_date": "2026-04-10",
-    "target_date": "2026-04-10",
-    "completed_date": "2026-04-10",
-    "carryover_from": null,
-    "created_at": "2026-04-10T03:20:02.255645",
-    "updated_at": "2026-04-10T04:59:46.501099"
-  },
-  {
-    "id": "88913f1b-a5ec-4fca-aa33-b3d507f09e99",
-    "title": "신상 week 종료일 확인",
-    "assignees": [
-      "조세빈"
-    ],
-    "details": "",
-    "status": "대기중",
-    "created_date": "2026-04-10",
-    "target_date": "2026-04-10",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-10T03:20:16.302341",
-    "updated_at": "2026-04-10T03:20:16.302354"
-  },
-  {
-    "id": "6417fb98-cb4d-462c-80d8-38f8f0a4c7ee",
-    "title": "쿠팡 매출최적화/수동성과형 광고 예산 이관",
-    "assignees": [
-      "고해일"
-    ],
-    "details": "",
-    "status": "완료",
-    "created_date": "2026-04-10",
-    "target_date": "2026-04-10",
-    "completed_date": "2026-04-10",
-    "carryover_from": null,
-    "created_at": "2026-04-10T05:04:39.537841",
-    "updated_at": "2026-04-10T05:04:44.402523"
-  },
-  {
-    "id": "8d9157ed-7f85-46fa-a115-4ef51e4322be",
-    "title": "BSA  FAN / 상시 프로모션 소재 컨펌 확인",
-    "assignees": [
-      "고해일"
-    ],
-    "details": "",
-    "status": "진행중",
-    "created_date": "2026-04-10",
-    "target_date": "2026-04-10",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-10T05:05:08.610063",
-    "updated_at": "2026-04-10T05:46:37.017321"
-  },
-  {
-    "id": "3070cd7a-acb8-4a17-8b0c-5fb8473603bd",
-    "title": "FAN 신제품 검색 관련 팔로업",
-    "assignees": [
-      "고해일"
-    ],
-    "details": "",
-    "status": "완료",
-    "created_date": "2026-04-10",
-    "target_date": "2026-04-10",
-    "completed_date": "2026-04-10",
-    "carryover_from": null,
-    "created_at": "2026-04-10T05:05:18.893473",
-    "updated_at": "2026-04-10T05:46:33.432940"
-  },
-  {
-    "id": "703600c0-aec5-45e8-99c1-065cf6071299",
-    "title": "상시 프로모션 소재 제작 요청",
-    "assignees": [
-      "고해일"
-    ],
-    "details": "",
-    "status": "대기중",
-    "created_date": "2026-04-10",
-    "target_date": "2026-04-10",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-10T05:46:52.913061",
-    "updated_at": "2026-04-10T05:46:52.913080"
-  },
-  {
-    "id": "2ffd6d87-be62-49f2-b612-263d08ee6169",
-    "title": "파워링크_청소기 일반 키워드 테스트 소재 세팅",
-    "assignees": [
-      "고해일"
-    ],
-    "details": "",
-    "status": "대기중",
-    "created_date": "2026-04-10",
-    "target_date": "2026-04-10",
-    "completed_date": null,
-    "carryover_from": null,
-    "created_at": "2026-04-10T05:47:06.630437",
-    "updated_at": "2026-04-10T05:47:06.630443"
+    "created_at": "2026-04-10T04:52:02.872768",
+    "updated_at": "2026-04-10T05:49:56.940263"
   }
 ]
