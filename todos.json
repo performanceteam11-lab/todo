@@ -378,13 +378,13 @@
       "하민수"
     ],
     "details": "",
-    "status": "완료",
+    "status": "진행중",
     "created_date": "2026-04-08",
     "target_date": "2026-04-10",
-    "completed_date": "2026-04-10",
+    "completed_date": null,
     "carryover_from": "2026-04-08",
     "created_at": "2026-04-08T00:31:23.031163",
-    "updated_at": "2026-04-10T06:00:25.851936"
+    "updated_at": "2026-04-10T01:42:30.735177"
   },
   {
     "id": "35609a3a-4e4d-4e84-be42-56f3f619d218",
@@ -591,13 +591,13 @@
       "유지민"
     ],
     "details": "",
-    "status": "진행중",
+    "status": "완료",
     "created_date": "2026-04-08",
     "target_date": "2026-04-10",
-    "completed_date": null,
+    "completed_date": "2026-04-10",
     "carryover_from": "2026-04-08",
     "created_at": "2026-04-08T09:06:12.536330",
-    "updated_at": "2026-04-08T09:06:15.578889"
+    "updated_at": "2026-04-10T06:22:27.767869"
   },
   {
     "id": "aa641776-8739-4eb9-9d5c-a699c71d08c5",
@@ -681,13 +681,13 @@
       "조세빈"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "완료",
     "created_date": "2026-04-09",
     "target_date": "2026-04-10",
-    "completed_date": null,
+    "completed_date": "2026-04-10",
     "carryover_from": "2026-04-09",
     "created_at": "2026-04-09T00:34:15.935358",
-    "updated_at": "2026-04-09T00:34:15.935369"
+    "updated_at": "2026-04-10T02:07:30.821444"
   },
   {
     "id": "0fb66841-3786-4124-aa14-f4a82c0a6bcf",
@@ -696,13 +696,13 @@
       "조세빈"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "완료",
     "created_date": "2026-04-09",
     "target_date": "2026-04-10",
-    "completed_date": null,
+    "completed_date": "2026-04-10",
     "carryover_from": "2026-04-09",
     "created_at": "2026-04-09T01:11:29.433878",
-    "updated_at": "2026-04-09T01:11:29.433887"
+    "updated_at": "2026-04-10T07:01:58.841900"
   },
   {
     "id": "d41f322e-f01a-4174-ba50-df672f7e9a50",
@@ -711,13 +711,13 @@
       "조세빈"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "완료",
     "created_date": "2026-04-09",
     "target_date": "2026-04-10",
-    "completed_date": null,
+    "completed_date": "2026-04-10",
     "carryover_from": "2026-04-09",
     "created_at": "2026-04-09T01:11:38.140984",
-    "updated_at": "2026-04-09T01:11:38.140992"
+    "updated_at": "2026-04-10T07:02:05.956131"
   },
   {
     "id": "f61aac8f-51b2-4e0d-90e2-78c4137cd722",
@@ -831,13 +831,13 @@
       "조세빈"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "진행중",
     "created_date": "2026-04-09",
     "target_date": "2026-04-10",
     "completed_date": null,
     "carryover_from": "2026-04-09",
     "created_at": "2026-04-09T05:03:40.668464",
-    "updated_at": "2026-04-09T05:03:40.668476"
+    "updated_at": "2026-04-10T07:02:11.283878"
   },
   {
     "id": "2154897e-8ece-49d9-ac2c-6fb769ea4fdf",
@@ -876,13 +876,13 @@
       "유지민"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "완료",
     "created_date": "2026-04-09",
     "target_date": "2026-04-10",
-    "completed_date": null,
+    "completed_date": "2026-04-10",
     "carryover_from": "2026-04-09",
     "created_at": "2026-04-09T07:43:32.487351",
-    "updated_at": "2026-04-09T07:43:32.487359"
+    "updated_at": "2026-04-10T06:21:45.045173"
   },
   {
     "id": "5f40f1c8-1bd5-450b-82ed-78a3645fd406",
@@ -897,7 +897,7 @@
     "completed_date": "2026-04-10",
     "carryover_from": null,
     "created_at": "2026-04-10T00:45:50.721555",
-    "updated_at": "2026-04-10T07:21:22.027161"
+    "updated_at": "2026-04-10T01:41:57.238026"
   },
   {
     "id": "b325b58b-1e43-45fe-9b1b-df2e48cc1cd5",
@@ -906,13 +906,13 @@
       "하민수"
     ],
     "details": "",
-    "status": "완료",
+    "status": "진행중",
     "created_date": "2026-04-10",
     "target_date": "2026-04-10",
-    "completed_date": "2026-04-10",
+    "completed_date": null,
     "carryover_from": null,
     "created_at": "2026-04-10T00:46:04.006704",
-    "updated_at": "2026-04-10T07:21:20.392475"
+    "updated_at": "2026-04-10T01:42:08.270809"
   },
   {
     "id": "160f84d5-f039-4f6c-9862-62d11f2d347b",
@@ -921,19 +921,19 @@
       "하민수"
     ],
     "details": "",
-    "status": "완료",
+    "status": "대기중",
     "created_date": "2026-04-10",
     "target_date": "2026-04-10",
-    "completed_date": "2026-04-10",
+    "completed_date": null,
     "carryover_from": null,
     "created_at": "2026-04-10T00:46:17.275668",
-    "updated_at": "2026-04-10T04:29:40.505621"
+    "updated_at": "2026-04-10T00:46:17.275675"
   },
   {
-    "id": "ba6ad80d-4c1e-4dcc-808e-e84603780fb9",
-    "title": "공유 모델 가이드 정리",
+    "id": "b9539847-b1b6-4a8e-b080-d346263673b2",
+    "title": "daily 최적화",
     "assignees": [
-      "하민수"
+      "조세빈"
     ],
     "details": "",
     "status": "완료",
@@ -941,14 +941,59 @@
     "target_date": "2026-04-10",
     "completed_date": "2026-04-10",
     "carryover_from": null,
-    "created_at": "2026-04-10T04:52:02.872768",
-    "updated_at": "2026-04-10T05:49:56.940263"
+    "created_at": "2026-04-10T02:07:38.940805",
+    "updated_at": "2026-04-10T03:20:09.217663"
   },
   {
-    "id": "ce0b9eec-1a25-4cef-8ea7-9de262ad8bb6",
-    "title": "터보블레이드 파워링크 소재 기획",
+    "id": "980049e1-2c20-4d4b-bcab-406989b17575",
+    "title": "쿠팡 캠페인 구조 확인 및 예산 이관",
     "assignees": [
-      "하민수"
+      "조세빈"
+    ],
+    "details": "",
+    "status": "완료",
+    "created_date": "2026-04-10",
+    "target_date": "2026-04-10",
+    "completed_date": "2026-04-10",
+    "carryover_from": null,
+    "created_at": "2026-04-10T03:20:02.255645",
+    "updated_at": "2026-04-10T04:59:46.501099"
+  },
+  {
+    "id": "88913f1b-a5ec-4fca-aa33-b3d507f09e99",
+    "title": "신상 week 종료일 확인",
+    "assignees": [
+      "조세빈"
+    ],
+    "details": "",
+    "status": "완료",
+    "created_date": "2026-04-10",
+    "target_date": "2026-04-10",
+    "completed_date": "2026-04-10",
+    "carryover_from": null,
+    "created_at": "2026-04-10T03:20:16.302341",
+    "updated_at": "2026-04-10T07:22:41.044480"
+  },
+  {
+    "id": "ea15bf1a-8cf1-410c-a6e0-b8ecad9edcbd",
+    "title": "신상 week ABT 중간 성과 확인",
+    "assignees": [
+      "조세빈"
+    ],
+    "details": "",
+    "status": "진행중",
+    "created_date": "2026-04-10",
+    "target_date": "2026-04-10",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-10T06:02:21.032940",
+    "updated_at": "2026-04-10T06:02:25.246625"
+  },
+  {
+    "id": "d76b3926-f704-4088-805c-35bb01e0a40a",
+    "title": "인플루언서 가이드 안내",
+    "assignees": [
+      "유지민"
     ],
     "details": "",
     "status": "대기중",
@@ -956,14 +1001,14 @@
     "target_date": "2026-04-10",
     "completed_date": null,
     "carryover_from": null,
-    "created_at": "2026-04-10T07:21:46.501396",
-    "updated_at": "2026-04-10T07:21:46.501404"
+    "created_at": "2026-04-10T06:21:51.818138",
+    "updated_at": "2026-04-10T06:21:51.818151"
   },
   {
-    "id": "4e42dcb5-a000-4f4f-8ae7-977cd89519c3",
-    "title": "FAN 그룹 브검 셋팅",
+    "id": "68ef8704-5d2f-4b03-a2fd-c84970a42607",
+    "title": "인플루언서 최종 진행 컨택",
     "assignees": [
-      "하민수"
+      "유지민"
     ],
     "details": "",
     "status": "대기중",
@@ -971,7 +1016,22 @@
     "target_date": "2026-04-10",
     "completed_date": null,
     "carryover_from": null,
-    "created_at": "2026-04-10T07:21:57.381765",
-    "updated_at": "2026-04-10T07:21:57.381774"
+    "created_at": "2026-04-10T06:22:09.577814",
+    "updated_at": "2026-04-10T06:22:09.577823"
+  },
+  {
+    "id": "7c02cadf-79bb-4cfd-bdb3-20a643b79f57",
+    "title": "인플 10시 데일리 회의",
+    "assignees": [
+      "유지민"
+    ],
+    "details": "",
+    "status": "완료",
+    "created_date": "2026-04-10",
+    "target_date": "2026-04-10",
+    "completed_date": "2026-04-10",
+    "carryover_from": null,
+    "created_at": "2026-04-10T06:22:17.357828",
+    "updated_at": "2026-04-10T06:22:22.192245"
   }
 ]
