@@ -635,26 +635,17 @@ def render_todo_row(todo: dict, key_suffix: str = ""):
         st.markdown(f'<div style="padding:6px 0;">{chips}</div>', unsafe_allow_html=True)
 
     with c_status:
-        widget_key = f"st_{todo['id']}_{key_suffix}"
-        if widget_key in st.session_state and st.session_state[widget_key] != status:
-            st.session_state[widget_key] = status
-
-        def _handle_status(tid=todo["id"], wk=widget_key):
-            new_val = st.session_state[wk]
-            for t in st.session_state.todos:
-                if t["id"] == tid and t["status"] != new_val:
-                    update_todo(tid, {"status": new_val})
-                    break
-
-        st.selectbox(
+        new_status = st.selectbox(
             "상태",
             STATUS_OPTIONS,
             index=STATUS_OPTIONS.index(status),
-            key=widget_key,
+            key=f"st_{todo['id']}",
             label_visibility="collapsed",
             format_func=lambda s: STATUS_LABEL[s],
-            on_change=_handle_status,
         )
+        if new_status != status:
+            update_todo(todo["id"], {"status": new_status})
+            st.rerun()
 
     with c_copy:
         with st.popover("📋", help="슬랙 복사"):
@@ -663,7 +654,7 @@ def render_todo_row(todo: dict, key_suffix: str = ""):
             st.code(slack_text, language=None)
 
     with c_del:
-        if st.button("🗑️", key=f"del_{todo['id']}_{key_suffix}", help="삭제"):
+        if st.button("🗑️", key=f"del_{todo['id']}", help="삭제"):
             delete_todo(todo["id"])
             st.rerun()
 
