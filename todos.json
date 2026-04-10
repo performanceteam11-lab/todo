@@ -1033,5 +1033,20 @@
     "carryover_from": null,
     "created_at": "2026-04-10T05:46:52.913061",
     "updated_at": "2026-04-10T05:46:52.913080"
+  },
+  {
+    "id": "2ffd6d87-be62-49f2-b612-263d08ee6169",
+    "title": "파워링크_청소기 일반 키워드 테스트 소재 세팅",
+    "assignees": [
+      "고해일"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-10",
+    "target_date": "2026-04-10",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-10T05:47:06.630437",
+    "updated_at": "2026-04-10T05:47:06.630443"
   }
 ]
