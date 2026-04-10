@@ -951,13 +951,13 @@
       "유지민"
     ],
     "details": "",
-    "status": "완료",
+    "status": "대기중",
     "created_date": "2026-04-10",
     "target_date": "2026-04-10",
-    "completed_date": "2026-04-10",
+    "completed_date": null,
     "carryover_from": null,
     "created_at": "2026-04-10T02:17:03.360636",
-    "updated_at": "2026-04-10T02:34:58.742987"
+    "updated_at": "2026-04-10T02:17:03.360649"
   },
   {
     "id": "9ddf7b57-42a7-44a1-9dbb-4caba998a489",
@@ -988,5 +988,20 @@
     "carryover_from": null,
     "created_at": "2026-04-10T02:17:18.843924",
     "updated_at": "2026-04-10T02:17:18.843939"
+  },
+  {
+    "id": "5b95db69-9cf8-4c92-abaf-821deb3186c2",
+    "title": "쿠팡 수동 입찰 캠페인 예산 이관",
+    "assignees": [
+      "고해일"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-10",
+    "target_date": "2026-04-10",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-10T02:39:40.116078",
+    "updated_at": "2026-04-10T02:39:40.116089"
   }
 ]
