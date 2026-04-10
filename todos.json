@@ -988,5 +988,20 @@
     "carryover_from": null,
     "created_at": "2026-04-10T05:04:39.537841",
     "updated_at": "2026-04-10T05:04:44.402523"
+  },
+  {
+    "id": "8d9157ed-7f85-46fa-a115-4ef51e4322be",
+    "title": "BSA  FAN / 상시 프로모션 소재 컨펌 확인",
+    "assignees": [
+      "고해일"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-10",
+    "target_date": "2026-04-10",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-10T05:05:08.610063",
+    "updated_at": "2026-04-10T05:05:08.610069"
   }
 ]
