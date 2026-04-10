@@ -1018,5 +1018,20 @@
     "carryover_from": null,
     "created_at": "2026-04-10T06:22:09.577814",
     "updated_at": "2026-04-10T06:22:09.577823"
+  },
+  {
+    "id": "7c02cadf-79bb-4cfd-bdb3-20a643b79f57",
+    "title": "인플 10시 데일리 회의",
+    "assignees": [
+      "유지민"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-10",
+    "target_date": "2026-04-10",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-10T06:22:17.357828",
+    "updated_at": "2026-04-10T06:22:17.357836"
   }
 ]
