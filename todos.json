@@ -928,5 +928,20 @@
     "carryover_from": null,
     "created_at": "2026-04-10T00:46:17.275668",
     "updated_at": "2026-04-10T00:46:17.275675"
+  },
+  {
+    "id": "b9539847-b1b6-4a8e-b080-d346263673b2",
+    "title": "daily 최적화",
+    "assignees": [
+      "조세빈"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-10",
+    "target_date": "2026-04-10",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-10T02:07:38.940805",
+    "updated_at": "2026-04-10T02:07:38.940816"
   }
 ]
