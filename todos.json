@@ -958,5 +958,20 @@
     "carryover_from": null,
     "created_at": "2026-04-10T07:21:46.501396",
     "updated_at": "2026-04-10T07:21:46.501404"
+  },
+  {
+    "id": "4e42dcb5-a000-4f4f-8ae7-977cd89519c3",
+    "title": "FAN 그룹 브검 셋팅",
+    "assignees": [
+      "하민수"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-10",
+    "target_date": "2026-04-10",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-10T07:21:57.381765",
+    "updated_at": "2026-04-10T07:21:57.381774"
   }
 ]
