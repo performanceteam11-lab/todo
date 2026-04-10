@@ -883,5 +883,20 @@
     "carryover_from": "2026-04-09",
     "created_at": "2026-04-09T07:43:32.487351",
     "updated_at": "2026-04-09T07:43:32.487359"
+  },
+  {
+    "id": "5f40f1c8-1bd5-450b-82ed-78a3645fd406",
+    "title": "터보블레이드 소재 1종 기획",
+    "assignees": [
+      "하민수"
+    ],
+    "details": "",
+    "status": "대기중",
+    "created_date": "2026-04-10",
+    "target_date": "2026-04-10",
+    "completed_date": null,
+    "carryover_from": null,
+    "created_at": "2026-04-10T00:45:50.721555",
+    "updated_at": "2026-04-10T00:45:50.721565"
   }
 ]
