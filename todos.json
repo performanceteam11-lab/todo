@@ -996,13 +996,13 @@
       "고해일"
     ],
     "details": "",
-    "status": "대기중",
+    "status": "진행중",
     "created_date": "2026-04-10",
     "target_date": "2026-04-10",
     "completed_date": null,
     "carryover_from": null,
     "created_at": "2026-04-10T05:05:08.610063",
-    "updated_at": "2026-04-10T05:05:08.610069"
+    "updated_at": "2026-04-10T05:46:37.017321"
   },
   {
     "id": "3070cd7a-acb8-4a17-8b0c-5fb8473603bd",
